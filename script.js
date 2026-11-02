@@ -1140,8 +1140,8 @@
             orderItemsText += `${i + 1}. *${item.name}* (${item.variantName})\n   • Qty: ${item.quantity} × ₹${item.price} = *₹${item.quantity * item.price}*\n`;
         });
 
-        const message = 
-`🐟 *NEW ORDER REQUEST – NANDITHA AQUARIUM* 🦜
+        const message =
+            `🐟 *NEW ORDER REQUEST – NANDITHA AQUARIUM* 🦜
 ----------------------------------------------
 Hello Nanditha Aquarium team, I would like to place an order from your retail website:
 
@@ -1489,6 +1489,7 @@ Please confirm availability and share payment / delivery confirmation. Thank you
                     p.classList.toggle('active', p.getAttribute('data-filter') === cat);
                 });
                 renderProducts();
+                closeMobileDrawer();
 
                 // Smooth scroll to catalog
                 const prodSection = document.getElementById('products');
@@ -1630,7 +1631,7 @@ Please confirm availability and share payment / delivery confirmation. Thank you
         if (closeDrawerBtn) closeDrawerBtn.addEventListener('click', closeMobileDrawer);
         if (mobileBackdrop) mobileBackdrop.addEventListener('click', closeMobileDrawer);
 
-        const drawerLinks = document.querySelectorAll('.drawer-nav-item');
+        const drawerLinks = document.querySelectorAll('.drawer-nav-item, .drawer-sub-link');
         drawerLinks.forEach(link => {
             link.addEventListener('click', closeMobileDrawer);
         });
@@ -1707,13 +1708,21 @@ Please confirm availability and share payment / delivery confirmation. Thank you
             });
         }
 
-        // Close on Escape Key
+        // Close on Escape Key (Accessibility)
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') {
                 closeCartDrawer();
                 closeMobileDrawer();
                 closeSearchModal();
                 closeProductModal();
+                const shopDropdownWrap = document.getElementById('shopDropdownWrap');
+                const shopDropdownTrigger = document.getElementById('shopDropdownTrigger');
+                if (shopDropdownWrap) {
+                    shopDropdownWrap.classList.remove('open');
+                }
+                if (shopDropdownTrigger) {
+                    shopDropdownTrigger.setAttribute('aria-expanded', 'false');
+                }
             }
         });
 
@@ -1729,8 +1738,8 @@ Please confirm availability and share payment / delivery confirmation. Thank you
                 const category = document.getElementById('inqCategory').value;
                 const message = document.getElementById('inqMessage').value.trim();
 
-                const waText = 
-`🐟 *WEBSITE ENQUIRY – NANDITHA AQUARIUM*
+                const waText =
+                    `🐟 *WEBSITE ENQUIRY – NANDITHA AQUARIUM*
 -----------------------------------------
 • Name: ${name}
 • Phone: ${phone}

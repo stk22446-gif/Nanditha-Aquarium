@@ -83,6 +83,25 @@ The website includes an end-to-end theme switcher supporting both themes across 
 
 ---
 
+## 🖥️ Desktop & PC Responsiveness Architecture
+The desktop experience is engineered and tested across 1024px, 1280px, 1366px, 1440px, 1600px, and 1920px viewports:
+- **Desktop Navbar**:
+  - Balanced spacing (`gap: 18px–28px`), zero wrapping, logo strictly left-aligned, right header controls (search, cart, theme switcher) aligned.
+  - Shop Dropdown Mega Menu with safe hover bridge, automatic viewport clamping, and full `Escape` keyboard closure.
+- **Hero Section**:
+  - Balanced 2-column grid (`1.15fr 0.85fr`) with fluid typography, aligned CTAs, and safe coordinates for floating 3D micro-badges.
+- **Category Grid**:
+  - Symmetrical 4-column desktop grid (2 rows of 4 = 8 categories) across all desktop sizes ($\ge 1024\text{px}$), eliminating stranded cards.
+- **Product Catalogue**:
+  - 4-column grid on standard/large desktop screens ($\ge 1200\text{px}$), 3-column grid on medium laptops (993px–1199px, including 1024px).
+  - Uniform card dimensions with clamped titles, fixed subtitle slots, and bottom-anchored price/action buttons.
+- **Content & Information Accuracy**:
+  - Business details strictly aligned with confirmed data: Open daily until 10 PM, 4.4★ Google Rating (516 reviews), retail shopping & doorstep delivery.
+  - Removed unsupported claims (such as unverified founding years, unverified 100% guarantees, and unconfirmed opening hours).
+  - Replaced fabricated testimonial personas with authentic Google customer review satisfaction themes and direct link to verified Google Maps reviews.
+
+---
+
 ## 🚀 Deployment (Static Vercel Deployment)
 The project contains zero backend dependencies and deploys directly onto **Vercel**:
 1. Push this repository to GitHub / GitLab / Bitbucket.
