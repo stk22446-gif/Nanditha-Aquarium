@@ -16,39 +16,56 @@
             id: 'fish-betta-halfmoon',
             category: 'fish',
             categoryName: 'Aquarium Fish',
-            name: 'Royal Halfmoon Betta',
-            subtitle: 'Betta splendens • Show Grade',
-            image: 'https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?auto=format&fit=crop&w=800&q=80',
-            description: 'Stunning 180-degree caudal spread with iridescent hues. Acclimatized to Bengaluru tap water parameters. Hardy, active, and peaceful when housed individually.',
+            name: 'Red Tail Shark',
+            subtitle: 'Epalzeorhynchos bicolor • Striking Contrast',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1793999139/Red-Tail-Shark2_zy5o3s.png',
+            description: 'A striking freshwater aquarium fish featuring a deep black body and a vibrant red tail. Known for its active swimming behaviour and territorial nature. Best suited for a spacious aquarium with hiding spots, caves and driftwood.',
             specs: {
-                'Care Level': 'Easy to Moderate',
-                'Water Temp': '24°C - 28°C',
-                'Diet': 'Carnivore / Pellets & Bloodworms',
+                'Care Level': 'Moderate',
+                'Water Temp': '22°C – 26°C',
+                'Diet': 'Omnivore – sinking pellets, algae wafers and occasional protein-rich foods',
                 'Tank Size': 'Minimum 15 Litres'
             },
             variants: [
-                { name: 'Male', price: 350, stock: 12, label: 'Full 180° Tail • Male' },
-                { name: 'Female', price: 220, stock: 8, label: 'Sorority Ready • Female' }
+                { name: 'Pair', price: 130, label: 'Rs.130' },
             ],
             featured: true
         },
         {
-            id: 'fish-guppy-fancy',
+            id: 'fish-guppy',
             category: 'fish',
             categoryName: 'Aquarium Fish',
-            name: 'Dumbo Ear Mosaic Guppy',
-            subtitle: 'Poecilia reticulata • High Fin Strain',
-            image: 'https://images.unsplash.com/photo-1524704654690-b56c05c78a00?auto=format&fit=crop&w=800&q=80',
-            description: 'Vibrant active livebearers featuring oversized pectoral fins and high-contrast mosaic tail patterns. Great for planted community tanks.',
+            name: 'Guppy',
+            subtitle: 'Poecilia reticulata',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794000711/a53aee47-9dde-4f75-82b0-90065a019dc7.png',
+            description: 'A beautiful fancy guppy featuring a shimmering golden-silver body and a vibrant yellow-orange tail decorated with distinctive black leopard-like spots. Its attractive colours and peaceful nature make it a popular choice for community aquariums.',
             specs: {
                 'Care Level': 'Beginner Friendly',
-                'Water Temp': '22°C - 28°C',
+                'Water Temp': '22°C – 28°C',
                 'Breeding': 'Livebearer',
                 'Diet': 'Omnivore / Micro Pellets'
             },
             variants: [
-                { name: 'Male', price: 90, stock: 35, label: 'Vibrant Mosaic Fin • Male' },
-                { name: 'Female', price: 60, stock: 25, label: 'Breeding Mature • Female' }
+                { name: 'Pair', price: 50, label: 'Rs.50' },
+            ],
+            featured: true
+        },
+        {
+            id: 'fish-guppy-imported',
+            category: 'fish',
+            categoryName: 'Aquarium Fish',
+            name: 'Imported Guppy',
+            subtitle: 'Poecilia reticulata',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794001298/061b38d0-37a3-4f62-ac59-eb2689193d54.png',
+            description: 'A beautiful fancy guppy featuring a shimmering golden-silver body and a vibrant yellow-orange tail decorated with distinctive black leopard-like spots. Its attractive colours and peaceful nature make it a popular choice for community aquariums.',
+            specs: {
+                'Care Level': 'Beginner Friendly',
+                'Water Temp': '22°C – 28°C',
+                'Breeding': 'Livebearer',
+                'Diet': 'Omnivore / Micro Pellets'
+            },
+            variants: [
+                { name: 'Pair', price: 150, label: 'Rs.150' },
             ],
             featured: true
         },
@@ -58,8 +75,9 @@
             categoryName: 'Aquarium Fish',
             name: 'Red Cap Oranda Goldfish',
             subtitle: 'Carassius auratus • Fancy Headgrowth',
-            image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80',
-            description: 'Classic peaceful fancy goldfish sporting a vibrant crimson wen (crown) on a snow-white body. Healthy swimming posture and friendly temperament.',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794001793/e083ee5f-67c6-46af-ae53-a2bef2bf0e4f.png',
+            video: 'https://res.cloudinary.com/dfzk4sfkw/video/upload/v1794007622/From_Klickpin.com-_Curly_Hair_Tips_That_Feel_So_Put_Together_3385-pin-id-456763587232065547_nbdcib.mp4',
+            description: 'A beautiful fancy goldfish featuring a pearly white body and a distinctive bright red fleshy head growth (wen). Its flowing fins, rounded body and graceful swimming movement make it an attractive centrepiece for freshwater aquariums.',
             specs: {
                 'Care Level': 'Easy',
                 'Water Temp': '18°C - 24°C',
@@ -67,10 +85,49 @@
                 'Life Span': '10+ Years'
             },
             variants: [
-                { name: 'Medium (3 inch)', price: 280, stock: 14, label: '3 inch • Medium' },
-                { name: 'Large (4.5 inch)', price: 490, stock: 6, label: '4.5 inch • Show Size' }
+                { name: 'Small (Pair)', price: 60, label: 'Small' },
+                { name: 'Medium (Pair)', price: 100, label: 'Medium' },
+                { name: 'Large (Pair)', price: 300, label: 'Large' }
             ],
             featured: true
+        },
+        {
+            id: 'fish-neon-tetra',
+            category: 'fish',
+            categoryName: 'Aquarium Fish',
+            name: 'Neon Tetra',
+            subtitle: 'Paracheirodon innesi • Electric Glow',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794002276/b4dda770-2645-41bc-a9f0-25a6fa979a37.png',
+            description: 'A beautiful and peaceful freshwater schooling fish featuring a brilliant iridescent blue stripe and a vibrant red stripe along its body. Its glowing colours and active swimming behaviour make it a popular choice for planted and community aquariums.',
+            specs: {
+                'Care Level': 'Easy',
+                'Water Temp': '18°C - 24°C',
+                'Diet': 'Herbivore/Omnivore sinking pellets',
+                'Life Span': '10+ Years'
+            },
+            variants: [
+                { name: 'Pair', price: 50, label: 'Rs.50' },
+            ],
+            featured: true
+        },
+        {
+            id: 'fish-Zebra-Danio-Neon-GloLight',
+            category: 'fish',
+            categoryName: 'Aquarium Fish',
+            name: 'Zebra Danio Neon GloLight',
+            subtitle: 'Poecilia reticulata • Premium Quality',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794003555/fe55bcb0-581b-46dc-a94a-363c3ca8c7d2.png',
+            description: 'A vibrant and colourful freshwater schooling fish featuring brilliant fluorescent shades of green, orange, pink, yellow and blue. Known for its active swimming behaviour, peaceful temperament and glowing appearance under aquarium lighting. Perfect for planted and community aquariums.',
+            specs: {
+                'Care Level': 'Easy',
+                'Water Temp': '22°C - 28°C',
+                'Diet': 'Micro pellets & brine shrimp',
+                'Origin': 'Thailand Import'
+            },
+            variants: [
+                { name: 'Pair', price: 25, label: 'Rs.25' },
+            ],
+            featured: false
         },
         {
             id: 'fish-molly-balloon',
@@ -78,27 +135,26 @@
             categoryName: 'Aquarium Fish',
             name: 'Dalmatian Balloon Molly',
             subtitle: 'Poecilia latipinna • Spotted Livebearer',
-            image: 'https://images.unsplash.com/photo-1546026423-cc4642628d2b?auto=format&fit=crop&w=800&q=80',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794004123/e03e2388-1a19-46f8-a8f9-255fab82922e.png',
             description: 'Round-bellied, cheerful livebearers with black and white Dalmatian spotting. Voracious biofilm and algae grazers that keep glass clean.',
             specs: {
                 'Care Level': 'Beginner',
                 'Water Temp': '24°C - 28°C',
                 'Behavior': 'Active & Peaceful',
-                'Diet': 'Vegetable flakes & spirulina'
+                'Diet': 'Vegetable flakes,Micro pellets & spirulina'
             },
             variants: [
-                { name: 'Male', price: 70, stock: 20, label: 'High Sailfin • Male' },
-                { name: 'Female', price: 50, stock: 25, label: 'Gravid Female' }
+                { name: 'Pair', price: 50, label: 'Rs.50' }
             ],
             featured: false
         },
         {
-            id: 'fish-platy-sunset',
+            id: 'fish-Albino-Pacu',
             category: 'fish',
             categoryName: 'Aquarium Fish',
-            name: 'Sunset Red Wag Platy',
-            subtitle: 'Xiphophorus maculatus • Hardy Community Fish',
-            image: 'https://images.unsplash.com/photo-1508873696983-2df5293cb395?auto=format&fit=crop&w=800&q=80',
+            name: 'Albino Pacu',
+            subtitle: 'Piaractus brachypomus • Albino freshwater fish',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794004666/bf0a9249-b844-4fac-a0f2-352fe2a7fbbb.png',
             description: 'Brilliant flame-gradient coloration fading into jet black fins. Extremely hardy and tolerant, ideal for beginners starting their first community aquarium.',
             specs: {
                 'Care Level': 'Very Easy',
@@ -107,70 +163,336 @@
                 'Compatibility': 'All peaceful community fish'
             },
             variants: [
-                { name: 'Male', price: 60, stock: 18, label: 'Vivid Slender • Male' },
-                { name: 'Female', price: 45, stock: 22, label: 'Robust • Female' }
+                { name: 'Single', price: 150, label: 'Rs.150' },
+                { name: 'Pair', price: 300, label: 'Rs.300' }
             ],
             featured: false
         },
         {
-            id: 'fish-tetra-neon',
+            id: 'fish-Albino-Tiger-Oscar-Fish',
             category: 'fish',
             categoryName: 'Aquarium Fish',
-            name: 'Jumbo Neon Tetra (Pack of 5)',
-            subtitle: 'Paracheirodon innesi • Glowing Schoolers',
-            image: 'https://images.unsplash.com/photo-1520315342629-6ea920342047?auto=format&fit=crop&w=800&q=80',
-            description: 'Iridescent blue horizontal stripe reflecting light with a bold crimson belly. Schooling fish that create dynamic motion across green planted tanks.',
+            name: 'Albino Tiger Oscar Fish',
+            subtitle: 'Astronotus ocellatus • Premium Quality',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794005068/e0e5d2b3-d1d3-4934-949f-d340fbc1df81.png',
+            images: [
+                'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794006391/2ec9ace3-9e58-4ae3-9b90-647bffbec5ef.png',
+            ],
+            description: 'A beautiful freshwater cichlid featuring a creamy white to pale pink body with distinctive red-orange tiger-like markings and striking reddish eyes. Known for its intelligent behaviour, bold personality and attractive appearance. A popular choice for large cichlid aquariums.',
             specs: {
-                'Care Level': 'Easy',
-                'Pack Size': '5 Pieces Pack',
+                'Care Level': 'Moderate',
+                'Diet': 'Cichlid pellets, Prawns, Insects & Occasional Vegetables',
                 'Water Temp': '22°C - 26°C',
-                'Diet': 'Micro granules & Daphnia'
             },
             variants: [
-                { name: '5 Pcs Pack', price: 180, stock: 15, label: '5 Fishes School' },
-                { name: '10 Pcs Pack', price: 320, stock: 10, label: '10 Fishes School (Best Value)' }
+                { name: 'Single', price: 275, label: 'Rs.275' },
+                { name: 'Pair', price: 550, label: 'Rs.550 (Best Value)' }
             ],
             featured: true
         },
         {
-            id: 'fish-angelfish-marble',
+            id: 'fish-common-goldfish',
             category: 'fish',
             categoryName: 'Aquarium Fish',
-            name: 'Marble Veil Angelfish',
-            subtitle: 'Pterophyllum scalare • Majestic Centerpiece',
-            image: 'https://images.unsplash.com/photo-1534043464124-3be32fe000c9?auto=format&fit=crop&w=800&q=80',
-            description: 'Tall diamond-profile body with trailing veil fins and distinctive black-and-silver marbling. Peaceful centerpiece fish for tall aquariums.',
+            name: 'Common Goldfish',
+            subtitle: 'Carassius auratus',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794007832/6aabf6ef-3849-46c9-ab0a-3990a1c6c02a.png',
+            video: 'https://res.cloudinary.com/dfzk4sfkw/video/upload/v1794007930/125afdc2b765b9a3f966aafd00f5cfa0_b4k3ia.mp4',
+            description: 'A popular freshwater aquarium fish featuring a bright golden-orange body, streamlined shape and flowing tail. Known for its active swimming behaviour and hardy nature, making it a classic choice for home aquariums and outdoor ponds.',
             specs: {
-                'Care Level': 'Moderate',
-                'Water Temp': '25°C - 29°C',
-                'Height': 'Up to 15cm fin span',
-                'Diet': 'Flakes, Pellets & Bloodworms'
+                'Care Level': 'Easy',
+                'Water Temp': '18°C - 24°C',
+                'Diet': 'Sinking pellets, Peas & occasional insects',
             },
             variants: [
-                { name: 'Medium (2 inch)', price: 160, stock: 16, label: 'Juvenile 2 inch' },
-                { name: 'Large (3.5 inch)', price: 320, stock: 7, label: 'Adult 3.5 inch' }
+                { name: 'Small (Pair)', price: 30, label: 'Small' },
+                { name: 'Medium (Pair)', price: 120, label: 'Medium' },
+                { name: 'Large (Pair)', price: 180, label: 'Large' }
             ],
             featured: false
         },
         {
-            id: 'fish-discus-pigeon',
+            id: 'fish-Red-Tiger-Oscar',
             category: 'fish',
             categoryName: 'Aquarium Fish',
-            name: 'Pigeon Blood Discus',
-            subtitle: 'Symphysodon aequifasciatus • King of Aquarium',
-            image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80',
-            description: 'The monarch of freshwater tanks. Features a rich striated sunset pattern, round disk symmetry, and bold red iris. Thriving in warm, pristine water.',
+            name: 'Red Tiger Oscar',
+            subtitle: 'Astronotus ocellatus • Red Tiger',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794007119/8fd1b18a-d070-4ba9-ab77-ee88ab19b374.png',
+            video: 'https://res.cloudinary.com/dfzk4sfkw/video/upload/v1794006345/755cfd48a49772f987e6b4d74bd93c21_qeudqz.mp4',
+            description: 'A striking freshwater cichlid admired for its dramatic jet-black base colour accented with brilliant red-orange tiger-like stripes and captivating reddish eyes. Known for its bold, curious personality and ability to learn routines, making it a highly interactive aquarium centerpiece.',
             specs: {
-                'Care Level': 'Experienced',
-                'Water Temp': '28°C - 31°C',
-                'pH': '6.2 - 6.8 (Soft Water)',
-                'Diet': 'Discus Bits, Beefheart, Artemia'
+                'Care Level': 'Moderate',
+                'Diet': 'Cichlid pellets, Prawns, Insects & Occasional Vegetables',
+                'Water Temp': '22°C - 26°C',
             },
             variants: [
-                { name: '2.5 inch', price: 950, stock: 5, label: 'Juvenile 2.5 inch' },
-                { name: '4.0 inch', price: 1850, stock: 3, label: 'Sub-adult 4.0 inch' }
+                { name: 'Single', price: 275, label: 'Rs.275' },
+                { name: 'Pair', price: 550, label: 'Rs.550 (Best Value)' }
             ],
             featured: false
+        },
+        {
+            id: 'fish-alligator-gar',
+            category: 'fish',
+            categoryName: 'Aquarium Fish',
+            name: 'Alligator Gar',
+            subtitle: 'Atractosteus spatula • Ancient Predator',
+            pricingType: 'enquiry', //pricingType: "fixed"
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794008575/dc0b3a0f-1d9b-4b41-ad8d-91cface52318.png',
+            images: [
+                'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794008672/fc30626f-e7b9-4e15-9400-04b67e149beb.png',
+                'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794008643/002531ab-c236-4297-850e-e95822fab55f.png',
+            ],
+            description: 'A fascinating prehistoric-looking freshwater predator featuring an elongated body, powerful jaws and sharp teeth resembling an alligator. Its distinctive diamond-shaped scales and impressive appearance make it a remarkable species for large specialised aquatic exhibits.',
+            specs: {
+                'Care Level': 'Expert',
+                'Diet': 'Fish, Prawns and Other Meaty Foods',
+                'Water Temp': '22°C - 26°C',
+            },
+            variants: [
+                { name: 'Single', label: 'Single' },
+                { name: 'Pair', label: 'Pair' }
+            ],
+            featured: true
+        },
+        {
+            id: "fish-japa-koi-karp",
+            category: "fish",
+            categoryName: "Aquarium Fish",
+            name: "Japanese Koi Carp",
+            subtitle: "Cyprinus rubrofuscus (Koi variety)",
+            image: "https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794010306/8d374473-46f4-4c21-a3dc-e7506b2517ab.png",
+            description: "A beautiful ornamental freshwater fish originating from Japan, known for its vibrant colours, elegant patterns and graceful swimming. Japanese Koi feature combinations of white, red, orange, yellow and black, making them popular for garden ponds and decorative water features.",
+            specs: {
+                'Care Level': 'Moderate',
+                'Temperature Range': '10°C - 25°C',
+                'Diet': 'Premium Koi Pellets, Peas, Wheat Germ',
+                'Maximum Size': '2-3 feet'
+            },
+            variants: [
+                { name: 'Small ', price: 90, label: '(Pair)' },
+                { name: 'Medium ', price: 500, label: '(Pair)' },
+                { name: 'Large ', price: 950, label: '(Pair)' }
+            ],
+            featured: true
+        },
+        {
+            id: "fish-Tinfoil-Barb",
+            category: "fish",
+            categoryName: "Aquarium Fish",
+            name: "Tinfoil Barb",
+            subtitle: "Arowana • Thai Ornamental Fish Variety",
+            image: "https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794010774/e99eabdd-ea62-4c13-9d1a-1e951ad3ea43.png",
+            description: "A stunning ornamental fish known for its vibrant red colour, metallic sheen and graceful, elongated body. This variety is prized for its beautiful appearance and elegant swimming behaviour, making it a captivating centerpiece for large aquariums.",
+            specs: {
+                'Care Level': 'Advanced',
+                'Diet': 'High-quality pellets, Insects, Shrimp, Small Fish',
+                'Water Temperature': '24°C - 28°C',
+                'Tank Size': 'Minimum 150 gallons'
+            },
+            variants: [
+                { name: 'Small', price: 50, label: '(Pair)' },
+                { name: 'Medium', price: 200, label: '(Pair)' },
+                { name: 'Large', price: 350, label: '(Pair)' }
+            ],
+            featured: true
+        },
+        {
+            id: "fish-Albino-Tinfoil-Barb",
+            category: "fish",
+            categoryName: "Aquarium Fish",
+            name: "Albino Tinfoil Barb",
+            subtitle: "Barbonymus schwanenfeldii • Albino Variety",
+            image: "https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794011530/e421fd7d-40a8-4143-a633-3ca12fcd16e5.png",
+            images: [
+                'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794011624/784dcc17-27a5-4aae-b0fb-92dc9fb3a35a.png',
+            ],
+            description: "A stunning ornamental fish known for its vibrant red colour, metallic sheen and graceful, elongated body. This variety is prized for its beautiful appearance and elegant swimming behaviour, making it a captivating centerpiece for large aquariums.",
+            specs: {
+                'Care Level': 'Moderate',
+                'Diet': 'High-quality pellets, Insects, Shrimp, Small Fish',
+                'Water Temperature': '24°C - 28°C',
+                'Tank Size': 'Minimum 150 gallons',
+                'Important': 'Can grow up to 35 cm and requires a spacious aquarium or pond. Best kept in groups.'
+            },
+            variants: [
+                { name: 'Single', price: 60, label: 'Single' },
+                { name: 'Pair', price: 120, label: 'Pair' }
+            ],
+            featured: true
+        },
+        {
+            id: "fish-molly",
+            category: "fish",
+            categoryName: "Aquarium Fish",
+            name: "Common Molly",
+            subtitle: "Pygocentrus nattereri • Golden Variety",
+            image: "https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794012827/05002a63-46e9-4cc5-a70e-c54a3914a188.png",
+            images: [
+                'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794012394/b27a2092-ae94-4138-84ad-4652a507c601.png',
+                'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794012304/5a9f3ab9-44e2-4713-b228-41b551fb0c40.png'
+            ],
+            description: "A hardy and peaceful livebearer, the Common Molly is an excellent choice for beginners and community tanks. Known for its tolerance of varying water conditions, it comes in many colors and shapes.",
+            specs: {
+                'Care Level': 'Easy',
+                'Diet': 'Flakes, pellets, algae, spirulina and vegetables',
+                'Water Temperature': '24°C - 28°C',
+                'Nature': 'Peaceful Beauty'
+            },
+            variants: [
+                { name: 'Single', price: 10, label: 'Single' },
+                { name: 'Pair', price: 25, label: 'Pair' }
+            ],
+            featured: true
+        },
+        {
+            id: "fish-GloFish-tetra",
+            category: "fish",
+            categoryName: "Aquarium Fish",
+            name: "GloFish Tetra",
+            subtitle: "Gymnocorymbus ternetzi",
+            image: "https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794013554/d9698569-b2f7-4b7a-bff7-7390dd4f00d1.png",
+            video: "https://res.cloudinary.com/dfzk4sfkw/video/upload/v1794013987/2d03a1e164cb794522c7947a5feae216_cqvxl5.mp4",
+            description: "A colourful freshwater schooling fish featuring brilliant fluorescent shades of yellow, pink, green, orange and blue. Known for its vibrant glowing appearance, active swimming behaviour and playful personality. A beautiful addition to planted and community aquariums.",
+            specs: {
+                'Care Level': 'Easy',
+                'Diet': 'Flakes, micro pellets, brine shrimp and bloodworms',
+                'Water Temperature': '24°C - 28°C',
+                'Nature': 'Peaceful Beauty'
+            },
+            variants: [
+                { name: 'Single', price: 25, label: 'Single' },
+                { name: 'Pair', price: 50, label: 'Pair' }
+            ],
+            featured: true
+        },
+        {
+            id: "fish-flowerhorn",
+            category: "fish",
+            categoryName: "Aquarium Fish",
+            name: "Flowerhorn",
+            subtitle: "Gymnocorymbus ternetzi",
+            image: "https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794014388/d02f6f5f-d730-46dd-b76f-653bbe2b2930.png",
+            video: "https://res.cloudinary.com/dfzk4sfkw/video/upload/v1794014428/ab1323b9a97adb39405a976259c601a0_d2tcz2.mp4",
+            description: "A stunning ornamental freshwater fish known for its prominent forehead hump (Kok), vibrant red and pink colours, pearly markings and distinctive body patterns. Flowerhorns are admired for their intelligent behaviour, interactive personality and striking appearance, making them a popular centrepiece fish.",
+            specs: {
+                'Care Level': 'Moderate',
+                'Diet': 'Flowerhorn pellets, prawns, insects and protein-rich foods',
+                'Water Temperature': '26°C – 30°C',
+                'Nature': 'Aggressive and territorial, best kept alone'
+            },
+            variants: [
+                { name: 'Small', price: 1950, label: 'Single' },
+            ],
+            featured: true
+        },
+        {
+            id: "fish-Gourami",
+            category: "fish",
+            categoryName: "Aquarium Fish",
+            name: "Gourami",
+            subtitle: "Trichopodus spp",
+            image: "https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794014833/57d10d35-1361-40e6-894e-ed5e77811686.png",
+            description: "A beautiful freshwater aquarium fish known for its laterally compressed body, delicate flowing fins and distinctive thread-like pelvic feelers. Gouramis come in a variety of attractive colours and patterns. They are popular for their graceful swimming behaviour and unique appearance.",
+            specs: {
+                'Care Level': 'Moderate',
+                'Diet': 'Flakes, pellets, brine shrimp, bloodworms and vegetables',
+                'Water Temperature': '26°C – 30°C',
+                'Nature': 'Peaceful and social, best kept in groups'
+            },
+            variants: [
+                { name: 'Small', price: 60, label: 'Pair' },
+                { name: 'Medium', price: 90, label: 'Pair' },
+                { name: 'Large', price: 150, label: 'Pair' }
+            ],
+            featured: true
+        },
+        {
+            id: "fish-tiger-shark",
+            category: "fish",
+            categoryName: "Aquarium Fish",
+            name: "Black Tiger Shark",
+            subtitle: "Pangasianodon hypophthalmus",
+            image: "https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794050094/a33f6eb4-ff18-4d1d-b3b7-2685ea2a4fe8.png",
+            images: [
+                "https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794050520/d4d14fd4-51bb-42da-8c7f-db64e97e7980.png",
+            ],
+            description: "A stunning freshwater fish with an elongated body, sleek silver-grey appearance, and bold black stripes running along its sides. Known for its active swimming behaviour, peaceful nature, and graceful movements, the Black Tiger Shark adds a dynamic and elegant touch to large aquariums.",
+            specs: {
+                'Care Level': 'Moderate',
+                'Diet': 'Pellets, crustaceans, insects, and aquatic plants',
+                'Water Temperature': '26°C – 30°C',
+                'Nature': 'Peaceful and social, best kept in groups'
+            },
+            variants: [
+                { name: 'Single', price: 25, label: 'Single' },
+                { name: 'Pair', price: 50, label: 'Pair' }
+            ],
+            featured: true
+        },
+        {
+            id: "fish-Albino-Tiger-Shark",
+            category: "fish",
+            categoryName: "Aquarium Fish",
+            name: "Albino Tiger Shark",
+            subtitle: "Pangasianodon hypophthalmus albino",
+            image: "https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794050889/6345806c-e81c-41fa-ba01-3ba414207786.png",
+            description: "A stunning freshwater fish with an elongated body, sleek silver-grey appearance, and bold black stripes running along its sides. Known for its active swimming behaviour, peaceful nature, and graceful movements, the Black Tiger Shark adds a dynamic and elegant touch to large aquariums.",
+            specs: {
+                'Care Level': 'Easy',
+                'Diet': 'Pellets, crustaceans, insects, and aquatic plants',
+                'Water Temperature': '24°C - 28°C',
+                'Nature': 'Peaceful Beauty'
+            },
+            variants: [
+                { name: 'Single', price: 35, label: 'Single' },
+                { name: 'Pair', price: 75, label: 'Pair' }
+            ],
+            featured: true
+        },
+        {
+            id: "fish-Pleco",
+            category: "fish",
+            categoryName: "Aquarium Fish",
+            name: "Pleco",
+            subtitle: "",
+            image: "https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794051232/da9f40cd-5f33-4531-9268-201346048470.png",
+            description: "A striking freshwater bottom-dwelling catfish featuring a dark body covered with beautiful leopard-like reticulated patterns and an impressive sail-shaped dorsal fin. Known for its distinctive appearance and algae-grazing behaviour, making it a popular choice for large freshwater aquariums.",
+            specs: {
+                'Care Level': 'Easy',
+                'Diet': 'Algae wafers, sinking pellets, vegetables and occasional protein-rich foods',
+                'Water Temperature': '24°C - 28°C',
+                'Nature': 'Peaceful Bottom-dweller'
+            },
+            variants: [
+                { name: 'Single', price: 25, label: 'Single' },
+                { name: 'Pair', price: 50, label: 'Pair' }
+            ],
+            featured: true
+        },
+        {
+            id: "fish-Betta",
+            category: "fish",
+            categoryName: "Aquarium Fish",
+            name: "Betta Fish",
+            subtitle: "Fighter Fish",
+            image: "https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794051753/67945665-6c47-48c7-a63c-3e4d9decf910.png",
+            images: [
+                "https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794051787/9b3b6409-9c5b-44d3-9782-ed6e2f6526e0.png",
+
+            ],
+            description: "Betta fish, also known as Siamese fighting fish, are popular freshwater aquarium fish prized for their vibrant colors, flowing fins, and feisty personalities. Originating from the Mekong Basin in Southeast Asia, these fish are known for their beauty and are relatively easy to care for, making them a favorite among aquarium hobbyists.",
+            specs: {
+                'Care Level': 'Easy',
+                'Diet': 'Algae wafers, sinking pellets, vegetables and occasional protein-rich foods',
+                'Water Temperature': '24°C - 28°C',
+                'Nature': 'Peaceful Bottom-dweller'
+            },
+            variants: [
+                { name: 'Male', price: 150, label: 'Single' },
+                { name: 'Female', price: 100, label: 'Single' }
+            ],
+            featured: true
         },
 
         // --- B. FISH FOOD ---
@@ -448,8 +770,162 @@
 
         // --- F. AQUARIUM TANKS ---
         {
+            id: 'tank-12x6x6-top',
+            category: 'Tank',
+            categoryName: 'Fish Tank',
+            name: 'Fish Tank (12x6x6) with Tank Top',
+            subtitle: '12 x 6 x 6 inches • Glass Tank with Top Cover',
+            pricingType: 'fixed',
+            image: 'https://images.unsplash.com/photo-1520315342629-6ea920342047?auto=format&fit=crop&w=800&q=80',
+            description: 'Clear glass fish tank measuring 12x6x6 inches with matching protective glass tank top cover. Suitable for small aquarium setups, desktop displays, and aquatic pets.',
+            specs: {
+                'Dimensions': '12 x 6 x 6 inches',
+                'Tank Cover': 'Glass Tank Top Included',
+                'Material': 'Clear Float Glass'
+            },
+            variants: [
+                { name: '12x6x6 with Top', price: 300, label: '12x6x6 with Top • ₹300' }
+            ],
+            featured: true
+        },
+        {
+            id: 'tank-12x6x8-top',
+            category: 'Tank',
+            categoryName: 'Fish Tank',
+            name: 'Fish Tank (12x6x8) with Tank Top',
+            subtitle: '12 x 6 x 8 inches • Glass Tank with Top Cover',
+            pricingType: 'fixed',
+            image: 'https://images.unsplash.com/photo-1520315342629-6ea920342047?auto=format&fit=crop&w=800&q=80',
+            description: 'Clear glass fish tank measuring 12x6x8 inches with matching protective glass tank top cover. Offers added vertical swimming height for desktop aquariums.',
+            specs: {
+                'Dimensions': '12 x 6 x 8 inches',
+                'Tank Cover': 'Glass Tank Top Included',
+                'Material': 'Clear Float Glass'
+            },
+            variants: [
+                { name: '12x6x8 with Top', price: 400, label: '12x6x8 with Top • ₹400' }
+            ],
+            featured: true
+        },
+        {
+            id: 'tank-18x9x9-top',
+            category: 'Tank',
+            categoryName: 'Fish Tank',
+            name: 'Fish Tank (18x9x9) with Tank Top',
+            subtitle: '18 x 9 x 9 inches • Glass Tank with Top Cover',
+            pricingType: 'fixed',
+            image: 'https://images.unsplash.com/photo-1520315342629-6ea920342047?auto=format&fit=crop&w=800&q=80',
+            description: 'Rectangular clear glass aquarium measuring 18x9x9 inches with protective glass tank top. Balanced dimensions for small planted setups and community fish.',
+            specs: {
+                'Dimensions': '18 x 9 x 9 inches',
+                'Tank Cover': 'Glass Tank Top Included',
+                'Material': 'Clear Float Glass'
+            },
+            variants: [
+                { name: '18x9x9 with Top', price: 750, label: '18x9x9 with Top • ₹750' }
+            ],
+            featured: true
+        },
+        {
+            id: 'tank-18x9x12-top',
+            category: 'Tank',
+            categoryName: 'Fish Tank',
+            name: 'Fish Tank (18x9x12) with Tank Top',
+            subtitle: '18 x 9 x 12 inches • Glass Tank with Top Cover',
+            pricingType: 'fixed',
+            image: 'https://images.unsplash.com/photo-1520315342629-6ea920342047?auto=format&fit=crop&w=800&q=80',
+            description: 'Clear glass aquarium measuring 18x9x12 inches with matching glass tank top cover. Generous depth and vertical swimming area for planted aquascapes.',
+            specs: {
+                'Dimensions': '18 x 9 x 12 inches',
+                'Tank Cover': 'Glass Tank Top Included',
+                'Material': 'Clear Float Glass'
+            },
+            variants: [
+                { name: '18x9x12 with Top', price: 850, label: '18x9x12 with Top • ₹850' }
+            ],
+            featured: true
+        },
+        {
+            id: 'tank-24x12x12-top',
+            category: 'Tank',
+            categoryName: 'Fish Tank',
+            name: 'Fish Tank (24x12x12) with Tank Top',
+            subtitle: '24 x 12 x 12 inches • 2-Foot Glass Tank with Top Cover',
+            pricingType: 'fixed',
+            image: 'https://images.unsplash.com/photo-1508873696983-2df5293cb395?auto=format&fit=crop&w=800&q=80',
+            description: 'Standard 2-foot glass aquarium measuring 24x12x12 inches complete with protective glass tank top. Ideal for community freshwater fish and planted layouts.',
+            specs: {
+                'Dimensions': '24 x 12 x 12 inches',
+                'Tank Cover': 'Glass Tank Top Included',
+                'Material': 'Clear Float Glass'
+            },
+            variants: [
+                { name: '24x12x12 with Top', price: 1350, label: '24x12x12 with Top • ₹1,350' }
+            ],
+            featured: true
+        },
+        {
+            id: 'tank-24x12x15-top',
+            category: 'Tank',
+            categoryName: 'Fish Tank',
+            name: 'Fish Tank (24x12x15) with Tank Top',
+            subtitle: '24 x 12 x 15 inches • 2-Foot Tall Glass Tank with Top Cover',
+            pricingType: 'fixed',
+            image: 'https://images.unsplash.com/photo-1508873696983-2df5293cb395?auto=format&fit=crop&w=800&q=80',
+            description: 'Spacious 2-foot tall profile glass fish tank measuring 24x12x15 inches with protective glass tank top. Provides extra water volume and panoramic viewing.',
+            specs: {
+                'Dimensions': '24 x 12 x 15 inches',
+                'Tank Cover': 'Glass Tank Top Included',
+                'Material': 'Clear Float Glass'
+            },
+            variants: [
+                { name: '24x12x15 with Top', price: 1550, label: '24x12x15 with Top • ₹1,550' }
+            ],
+            featured: true
+        },
+        {
+            id: 'tank-30x12x15-8mm-top',
+            category: 'Tank',
+            categoryName: 'Fish Tank',
+            name: 'Fish Tank (30x12x15) with Tank Top (8mm)',
+            subtitle: '30 x 12 x 15 inches • 8mm Glass • Includes Tank Top',
+            pricingType: 'fixed',
+            image: 'https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?auto=format&fit=crop&w=800&q=80',
+            description: 'Heavy-duty 2.5-foot fish tank constructed with 8mm thick glass for exceptional structural strength and durability. Includes protective glass tank top cover.',
+            specs: {
+                'Dimensions': '30 x 12 x 15 inches',
+                'Glass Thickness': '8mm Heavy-Duty Glass',
+                'Tank Cover': 'Glass Tank Top Included',
+                'Material': 'Machine Polished Float Glass'
+            },
+            variants: [
+                { name: '30x12x15 (8mm) with Top', price: 2750, label: '30x12x15 (8mm) with Top • ₹2,750' }
+            ],
+            featured: true
+        },
+        {
+            id: 'tank-36x15x18-8mm-top',
+            category: 'Tank',
+            categoryName: 'Fish Tank',
+            name: 'Fish Tank (36x15x18) with Tank Top (8mm)',
+            subtitle: '36 x 15 x 18 inches • 8mm Glass • Includes Tank Top',
+            pricingType: 'fixed',
+            image: 'https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?auto=format&fit=crop&w=800&q=80',
+            description: 'Expansive 3-foot display aquarium constructed from 8mm heavy-duty glass with matching protective glass tank top cover. Ideal for large community setups.',
+            specs: {
+                'Dimensions': '36 x 15 x 18 inches',
+                'Glass Thickness': '8mm Heavy-Duty Glass',
+                'Tank Cover': 'Glass Tank Top Included',
+                'Material': 'Machine Polished Float Glass'
+            },
+            variants: [
+                { name: '36x15x18 (8mm) with Top', price: 3750, label: '36x15x18 (8mm) with Top • ₹3,750' }
+            ],
+            featured: true
+        },
+        {
             id: 'tank-nano-rimless',
-            category: 'tanks',
+            category: 'Tank',
             categoryName: 'Aquarium Tanks',
             name: 'Crystal Clear Rimless Nano Cube',
             subtitle: '30x30x30 cm • 27 Litres • Low-Iron Float Glass',
@@ -465,11 +941,11 @@
                 { name: '30cm Cube (27L)', price: 1450, stock: 8, label: '30cm Cube • 27L' },
                 { name: '40cm Cube (64L)', price: 2400, stock: 5, label: '40cm Cube • 64L' }
             ],
-            featured: true
+            featured: false
         },
         {
             id: 'tank-medium-rimless',
-            category: 'tanks',
+            category: 'Tank',
             categoryName: 'Aquarium Tanks',
             name: '2-Feet Planted Aquascape Tank',
             subtitle: '60x30x36 cm • 64 Litres • 6mm Beveled Glass',
@@ -485,11 +961,11 @@
                 { name: 'Standard Float (6mm)', price: 2850, stock: 6, label: 'Standard Float Glass • ₹2,850' },
                 { name: 'Ultra-White Low Iron', price: 3950, stock: 4, label: 'Ultra-Clear Optiwhite • ₹3,950' }
             ],
-            featured: true
+            featured: false
         },
         {
             id: 'tank-curved-corner',
-            category: 'tanks',
+            category: 'Tank',
             categoryName: 'Aquarium Tanks',
             name: 'Seamless Curved Front Glass Aquarium',
             subtitle: 'Bent Glass Panoramic Display with Molded Hood',
@@ -509,7 +985,7 @@
         },
         {
             id: 'tank-custom-3ft',
-            category: 'tanks',
+            category: 'Tank',
             categoryName: 'Aquarium Tanks',
             name: '3-Feet Heavy Display Aquarium',
             subtitle: '90x45x45 cm • 182 Litres • 8mm Toughened Glass',
@@ -667,6 +1143,24 @@
             featured: false
         },
         {
+            id: 'acc-bird-toy-ladder',
+            category: 'bird-acc',
+            categoryName: 'Bird Accessories',
+            name: 'Colorful Wooden Chewing Ladder & Bell Swing',
+            subtitle: 'Non-Toxic Vegetable Dye • Foraging & Exercise Fun',
+            image: 'https://images.unsplash.com/photo-1549608276-5786777e6587?auto=format&fit=crop&w=800&q=80',
+            description: 'Acrobatic climbing ladder with colorful rungs, cotton rope tassels, and a cheerful chime bell. Relieves bird boredom and prevents stress feather plucking.',
+            specs: {
+                'Dyes': '100% Pet-safe edible food dyes',
+                'Clips': 'Quick-link metal cage carabiner',
+                'Rungs': '8 Steps Wooden Ladder'
+            },
+            variants: [
+                { name: 'Ladder + Bell Swing Combo', price: 220, stock: 28, label: 'Ladder & Swing Set' }
+            ],
+            featured: false
+        },
+        {
             id: 'acc-bird-nest-box',
             category: 'bird-acc',
             categoryName: 'Bird Accessories',
@@ -694,12 +1188,84 @@
     let cart = [];
     let currentFilter = 'all';
     let currentSearchTerm = '';
+    let currentSortOption = 'featured';
+    const PRODUCTS_PER_PAGE = 12;
+    let visibleProductsLimit = PRODUCTS_PER_PAGE;
     let selectedVariantsMap = {}; // tracks selected variant index per product ID
 
     // Initialize default selected variant (index 0) for each product
     productsData.forEach(p => {
         selectedVariantsMap[p.id] = 0;
     });
+
+    // Helper: Category matcher for filter pills and nav items
+    function matchesCategory(product, filter) {
+        if (!filter || filter === 'all') return true;
+        if (filter === 'fish') return product.category === 'fish';
+        if (filter === 'birds') return product.category === 'birds' || product.category === 'cockatiels' || product.category === 'budgies';
+        if (filter === 'cockatiels') return product.category === 'cockatiels';
+        if (filter === 'budgies') return product.category === 'budgies';
+        if (filter === 'fish-food') return product.category === 'fish-food';
+        if (filter === 'bird-food') return product.category === 'bird-food';
+        if (filter === 'tanks' || filter === 'Tank' || filter === 'tank') {
+            return product.category === 'tanks' || product.category === 'Tank' || product.category === 'tank';
+        }
+        if (filter === 'fish-bowls') {
+            return product.id === 'tank-nano-rimless' ||
+                product.name.toLowerCase().includes('nano') ||
+                product.name.toLowerCase().includes('cube') ||
+                product.name.toLowerCase().includes('bowl');
+        }
+        if (filter === 'imported-tanks') {
+            return product.id === 'tank-curved-corner' ||
+                product.id === 'tank-custom-3ft' ||
+                product.id === 'tank-medium-rimless';
+        }
+        if (filter === 'bird-acc') return product.category === 'bird-acc';
+        if (filter === 'aquarium-acc') return product.category === 'aquarium-acc';
+        return product.category === filter;
+    }
+
+    // Helper: Build WhatsApp enquiry URL for enquiry products
+    function getEnquiryWhatsAppUrl(product, variant = null) {
+        const vText = variant && variant.name ? ` (${variant.name})` : '';
+        const message = `Hi, I am interested in ${product.name}${vText}. Please share its current price and availability.`;
+        return `https://wa.me/919620935209?text=${encodeURIComponent(message)}`;
+    }
+
+    // Helper: Sort products according to selected option
+    function sortProducts(items, sortOption) {
+        const list = [...items];
+        switch (sortOption) {
+            case 'price-asc':
+                return list.sort((a, b) => {
+                    const isEnquiryA = a.pricingType === 'enquiry' || typeof a.variants[0]?.price !== 'number';
+                    const isEnquiryB = b.pricingType === 'enquiry' || typeof b.variants[0]?.price !== 'number';
+                    if (isEnquiryA && isEnquiryB) return 0;
+                    if (isEnquiryA) return 1;
+                    if (isEnquiryB) return -1;
+                    const priceA = a.variants[0]?.price || 0;
+                    const priceB = b.variants[0]?.price || 0;
+                    return priceA - priceB;
+                });
+            case 'price-desc':
+                return list.sort((a, b) => {
+                    const isEnquiryA = a.pricingType === 'enquiry' || typeof a.variants[0]?.price !== 'number';
+                    const isEnquiryB = b.pricingType === 'enquiry' || typeof b.variants[0]?.price !== 'number';
+                    if (isEnquiryA && isEnquiryB) return 0;
+                    if (isEnquiryA) return 1;
+                    if (isEnquiryB) return -1;
+                    const priceA = a.variants[0]?.price || 0;
+                    const priceB = b.variants[0]?.price || 0;
+                    return priceB - priceA;
+                });
+            case 'name-asc':
+                return list.sort((a, b) => a.name.localeCompare(b.name));
+            case 'featured':
+            default:
+                return list.sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0));
+        }
+    }
 
     // Load Cart from localStorage
     function loadCart() {
@@ -726,51 +1292,93 @@
     // 3. UI RENDERING & COMPONENT BUILDERS
     // =========================================================================
 
-    // Render Product Cards
+    // Render Product Cards (with Category Filtering, Sort, Search, and Load More Pagination)
     function renderProducts() {
         const grid = document.getElementById('productsGrid');
         const emptyState = document.getElementById('emptyProductsState');
         const countSpan = document.getElementById('visibleProductsCount');
+        const totalCountSpan = document.getElementById('totalMatchingCount');
         const activeFilterBadge = document.getElementById('activeFilterBadge');
+        const loadMoreWrapper = document.getElementById('loadMoreWrapper');
+        const loadMoreBtn = document.getElementById('loadMoreBtn');
+        const allLoadedText = document.getElementById('allLoadedText');
+        const totalViewedCount = document.getElementById('totalViewedCount');
 
         if (!grid) return;
 
-        // Filter products based on currentFilter and currentSearchTerm
+        // 1. Filter products based on currentFilter and currentSearchTerm
+        const term = currentSearchTerm.toLowerCase().trim();
         const filtered = productsData.filter(product => {
-            // Category check
-            const matchesCategory = (currentFilter === 'all') || (product.category === currentFilter);
-
-            // Search query check
-            const term = currentSearchTerm.toLowerCase().trim();
+            const matchesCat = matchesCategory(product, currentFilter);
             const matchesSearch = !term ||
                 product.name.toLowerCase().includes(term) ||
                 product.subtitle.toLowerCase().includes(term) ||
                 product.categoryName.toLowerCase().includes(term) ||
-                product.variants.some(v => v.name.toLowerCase().includes(term) || v.label.toLowerCase().includes(term)) ||
+                product.variants.some(v => v.name.toLowerCase().includes(term) || (v.label && v.label.toLowerCase().includes(term))) ||
                 (product.specs && Object.values(product.specs).some(val => String(val).toLowerCase().includes(term)));
 
-            return matchesCategory && matchesSearch;
+            return matchesCat && matchesSearch;
         });
 
-        // Update counts
-        if (countSpan) countSpan.textContent = filtered.length;
+        // 2. Sort matching products
+        const sorted = sortProducts(filtered, currentSortOption);
+
+        const totalMatching = sorted.length;
+        const visibleItems = sorted.slice(0, visibleProductsLimit);
+        const visibleCount = visibleItems.length;
+
+        // 3. Update count displays
+        if (countSpan) countSpan.textContent = visibleCount;
+        if (totalCountSpan) totalCountSpan.textContent = totalMatching;
+        if (totalViewedCount) totalViewedCount.textContent = totalMatching;
+
         if (activeFilterBadge) {
-            activeFilterBadge.textContent = currentFilter === 'all' ? 'All Products' : currentFilter.replace('-', ' ');
+            const labelMap = {
+                'all': 'All Products',
+                'fish': 'Aquarium Fish',
+                'birds': 'Birds',
+                'fish-food': 'Fish Food',
+                'bird-food': 'Bird Food',
+                'tanks': 'Aquarium Tanks',
+                'Tank': 'Aquarium Tanks',
+                'tank': 'Aquarium Tanks',
+                'fish-bowls': 'Fish Bowls',
+                'imported-tanks': 'Imported Tanks',
+                'bird-acc': 'Bird Accessories',
+                'aquarium-acc': 'Aquarium Accessories',
+                'cockatiels': 'Cockatiels',
+                'budgies': 'Budgies'
+            };
+            activeFilterBadge.textContent = labelMap[currentFilter] || currentFilter.replace('-', ' ');
         }
 
-        // Handle empty state
-        if (filtered.length === 0) {
+        // 4. Handle empty state
+        if (totalMatching === 0) {
             grid.innerHTML = '';
             if (emptyState) emptyState.style.display = 'block';
+            if (loadMoreWrapper) loadMoreWrapper.style.display = 'none';
             return;
         } else {
             if (emptyState) emptyState.style.display = 'none';
+            if (loadMoreWrapper) loadMoreWrapper.style.display = 'flex';
         }
 
-        // Render Cards
-        grid.innerHTML = filtered.map(product => {
+        // 5. Handle Load More button visibility
+        if (loadMoreBtn && allLoadedText) {
+            if (visibleCount < totalMatching) {
+                loadMoreBtn.style.display = 'inline-flex';
+                allLoadedText.style.display = 'none';
+            } else {
+                loadMoreBtn.style.display = 'none';
+                allLoadedText.style.display = totalMatching > 0 ? 'inline-flex' : 'none';
+            }
+        }
+
+        // 6. Render visible Cards
+        grid.innerHTML = visibleItems.map(product => {
             const currentVariantIdx = selectedVariantsMap[product.id] || 0;
             const currentVariant = product.variants[currentVariantIdx] || product.variants[0];
+            const isEnquiry = product.pricingType === 'enquiry';
 
             // Build Variant Pills
             const variantButtonsHtml = product.variants.map((v, idx) => {
@@ -789,11 +1397,6 @@
                 <article class="product-card" id="card-${product.id}">
                     <div class="product-card-media">
                         <img src="${product.image}" alt="${product.name}" loading="lazy">
-                        <span class="product-category-badge">${product.categoryName}</span>
-                        <span class="product-stock-tag">
-                            <span class="stock-tag-dot"></span>
-                            <span>${currentVariant.stock > 0 ? `In Stock (${currentVariant.stock})` : 'Order on Req'}</span>
-                        </span>
                     </div>
 
                     <div class="product-card-body">
@@ -815,22 +1418,40 @@
                             </div>
                         </div>
 
-                        <!-- Price & Live Stock -->
-                        <div class="product-price-row">
-                            <div>
-                                <span class="product-price-label">Price (${currentVariant.name}):</span>
-                                <div class="product-live-price" id="price-${product.id}">₹${currentVariant.price.toLocaleString('en-IN')}</div>
+                        <!-- Price Section -->
+                        ${isEnquiry ? `
+                            <div class="product-price-row product-price-row-enquiry">
+                                <div class="product-enquiry-badge">
+                                    <span class="enquiry-pulse-dot"></span>
+                                    <span>Price on WhatsApp Enquiry</span>
+                                </div>
                             </div>
-                        </div>
+                        ` : `
+                            <div class="product-price-row">
+                                <div>
+                                    <span class="product-price-label" id="price-label-${product.id}">Price (${currentVariant.name}):</span>
+                                    <div class="product-live-price" id="price-${product.id}">₹${currentVariant.price.toLocaleString('en-IN')}</div>
+                                </div>
+                            </div>
+                        `}
 
                         <!-- Action Buttons -->
                         <div class="product-actions-group">
                             <button type="button" class="btn-view-details" data-action="quickview" data-product-id="${product.id}">
                                 View Details
                             </button>
-                            <button type="button" class="btn-add-cart" data-action="add-cart" data-product-id="${product.id}">
-                                <span>+ Add to Bag</span>
-                            </button>
+                            ${isEnquiry ? `
+                                <a href="${getEnquiryWhatsAppUrl(product, currentVariant)}" target="_blank" rel="noopener" class="btn-add-cart btn-enquire-card" id="enquire-${product.id}">
+                                    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                                        <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67Z"/>
+                                    </svg>
+                                    <span>Enquire on WhatsApp</span>
+                                </a>
+                            ` : `
+                                <button type="button" class="btn-add-cart" data-action="add-cart" data-product-id="${product.id}">
+                                    <span>+ Add to Bag</span>
+                                </button>
+                            `}
                         </div>
                     </div>
                 </article>
@@ -917,6 +1538,12 @@
     function addToCart(productId, specificVariantIdx = null) {
         const product = productsData.find(p => p.id === productId);
         if (!product) return;
+
+        // Disallow adding enquiry products to cart
+        if (product.pricingType === 'enquiry') {
+            showToast('This item is available via WhatsApp enquiry.');
+            return;
+        }
 
         const variantIdx = specificVariantIdx !== null ? specificVariantIdx : (selectedVariantsMap[productId] || 0);
         const variant = product.variants[variantIdx] || product.variants[0];
@@ -1014,6 +1641,211 @@
         }
     }
 
+    // Helper to determine if a URL points to video content
+    function isVideoMedia(url) {
+        if (!url || typeof url !== 'string') return false;
+        return /\.(mp4|webm|ogg|mov)(\?.*)?$/i.test(url) || url.includes('/video/upload/');
+    }
+
+    // Helper to extract and normalize all media items for a product with 100% backward compatibility
+    function getProductMedia(product) {
+        if (!product) return [];
+        const list = [];
+
+        // 1. Check explicit media array: [{ type: 'image'|'video', url, poster }, ...] or ['url1', ...]
+        if (Array.isArray(product.media) && product.media.length > 0) {
+            product.media.forEach(item => {
+                if (typeof item === 'string' && item.trim()) {
+                    list.push({
+                        type: isVideoMedia(item) ? 'video' : 'image',
+                        url: item.trim()
+                    });
+                } else if (item && item.url) {
+                    list.push({
+                        type: item.type || (isVideoMedia(item.url) ? 'video' : 'image'),
+                        url: item.url,
+                        poster: item.poster || null
+                    });
+                }
+            });
+        }
+
+        // 2. If no explicit media array, start with primary image
+        if (list.length === 0 && product.image && typeof product.image === 'string') {
+            list.push({
+                type: isVideoMedia(product.image) ? 'video' : 'image',
+                url: product.image
+            });
+        }
+
+        // 3. Collect optional images array: images: ['url1', 'url2', ...]
+        if (Array.isArray(product.images)) {
+            product.images.forEach(imgUrl => {
+                if (typeof imgUrl === 'string' && imgUrl.trim()) {
+                    const u = imgUrl.trim();
+                    if (!list.some(m => m.url === u)) {
+                        list.push({
+                            type: isVideoMedia(u) ? 'video' : 'image',
+                            url: u
+                        });
+                    }
+                }
+            });
+        }
+
+        // 4. Collect optional numbered images: image2, image3, image4, image5...
+        ['image2', 'image3', 'image4', 'image5'].forEach(key => {
+            if (product[key] && typeof product[key] === 'string' && product[key].trim()) {
+                const u = product[key].trim();
+                if (!list.some(m => m.url === u)) {
+                    list.push({
+                        type: isVideoMedia(u) ? 'video' : 'image',
+                        url: u
+                    });
+                }
+            }
+        });
+
+        // 5. Collect optional video / videos: video: 'url' OR videos: ['url1', ...]
+        if (product.video) {
+            if (typeof product.video === 'string' && product.video.trim()) {
+                const vUrl = product.video.trim();
+                if (!list.some(m => m.url === vUrl)) {
+                    list.push({ type: 'video', url: vUrl });
+                }
+            } else if (product.video.url) {
+                if (!list.some(m => m.url === product.video.url)) {
+                    list.push({ type: 'video', url: product.video.url, poster: product.video.poster || null });
+                }
+            }
+        }
+        if (Array.isArray(product.videos)) {
+            product.videos.forEach(v => {
+                const url = typeof v === 'string' ? v.trim() : (v && v.url);
+                const poster = (v && v.poster) || null;
+                if (url && !list.some(m => m.url === url)) {
+                    list.push({ type: 'video', url: url, poster: poster });
+                }
+            });
+        }
+
+        // Fallback: If still empty but product has image property
+        if (list.length === 0 && product.image) {
+            list.push({ type: 'image', url: product.image });
+        }
+
+        return list;
+    }
+
+    // Modal Image & Video Slider Interactive Controller
+    function initModalSlider(container, mediaList) {
+        const wrap = container.querySelector('#modalSliderWrap');
+        const track = container.querySelector('#modalSliderTrack');
+        const prevBtn = container.querySelector('#modalSliderPrev');
+        const nextBtn = container.querySelector('#modalSliderNext');
+        const counter = container.querySelector('#activeSlideNum');
+        const thumbs = container.querySelectorAll('.modal-thumb-item');
+        const slides = container.querySelectorAll('.modal-slide');
+        if (!wrap || !track || mediaList.length <= 1) return;
+
+        let currentIdx = 0;
+
+        function updateSlider(newIdx) {
+            // Pause any playing videos before changing slides
+            const videos = container.querySelectorAll('.modal-product-video');
+            videos.forEach(v => {
+                try { v.pause(); } catch (err) { }
+            });
+
+            currentIdx = (newIdx + mediaList.length) % mediaList.length;
+
+            // Shift track
+            track.style.transform = `translateX(-${currentIdx * 100}%)`;
+
+            // Update counter
+            if (counter) counter.textContent = currentIdx + 1;
+
+            // Update active states
+            slides.forEach((s, idx) => s.classList.toggle('active', idx === currentIdx));
+            thumbs.forEach((t, idx) => t.classList.toggle('active', idx === currentIdx));
+
+            // Scroll active thumb into view
+            if (thumbs[currentIdx]) {
+                try {
+                    thumbs[currentIdx].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+                } catch (e) { }
+            }
+        }
+
+        if (prevBtn) {
+            prevBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                updateSlider(currentIdx - 1);
+            });
+        }
+
+        if (nextBtn) {
+            nextBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                updateSlider(currentIdx + 1);
+            });
+        }
+
+        thumbs.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const idx = parseInt(btn.getAttribute('data-thumb-index'), 10);
+                if (!isNaN(idx)) updateSlider(idx);
+            });
+        });
+
+        // Touch Swipe Navigation for mobile
+        let startX = 0;
+        let startY = 0;
+        let isTouching = false;
+
+        wrap.addEventListener('touchstart', (e) => {
+            if (e.touches.length === 1) {
+                startX = e.touches[0].clientX;
+                startY = e.touches[0].clientY;
+                isTouching = true;
+            }
+        }, { passive: true });
+
+        wrap.addEventListener('touchend', (e) => {
+            if (!isTouching) return;
+            isTouching = false;
+            const endX = e.changedTouches[0].clientX;
+            const endY = e.changedTouches[0].clientY;
+            const diffX = endX - startX;
+            const diffY = endY - startY;
+
+            // Only trigger if horizontal swipe is dominant and exceeds threshold
+            if (Math.abs(diffX) > 40 && Math.abs(diffX) > Math.abs(diffY)) {
+                if (diffX < 0) {
+                    updateSlider(currentIdx + 1); // Swipe Left -> Next
+                } else {
+                    updateSlider(currentIdx - 1); // Swipe Right -> Prev
+                }
+            }
+        }, { passive: true });
+
+        // Keyboard arrow navigation
+        const handleKeyDown = (e) => {
+            const modalBackdrop = document.getElementById('productModalBackdrop');
+            if (!modalBackdrop || !modalBackdrop.classList.contains('active')) {
+                document.removeEventListener('keydown', handleKeyDown);
+                return;
+            }
+            if (e.key === 'ArrowLeft') {
+                updateSlider(currentIdx - 1);
+            } else if (e.key === 'ArrowRight') {
+                updateSlider(currentIdx + 1);
+            }
+        };
+        document.addEventListener('keydown', handleKeyDown);
+    }
+
     // Product Quick View Modal
     function openProductModal(productId) {
         const product = productsData.find(p => p.id === productId);
@@ -1025,6 +1857,7 @@
 
         const currentVarIdx = selectedVariantsMap[product.id] || 0;
         const currentVariant = product.variants[currentVarIdx] || product.variants[0];
+        const isEnquiry = product.pricingType === 'enquiry';
 
         // Specs List
         let specsHtml = '';
@@ -1038,30 +1871,121 @@
         }
 
         // Variants Pills
-        const variantButtonsHtml = product.variants.map((v, idx) => `
+        const variantButtonsHtml = product.variants.map((v, idx) => {
+            const priceLabel = (!isEnquiry && typeof v.price === 'number') ? ` (₹${v.price})` : '';
+            return `
             <button type="button" 
                     class="variant-btn ${idx === currentVarIdx ? 'selected' : ''}" 
                     data-modal-product-id="${product.id}" 
                     data-modal-variant-idx="${idx}">
-                ${v.name} (₹${v.price})
+                ${v.name}${priceLabel}
             </button>
-        `).join('');
+            `;
+        }).join('');
+
+        // Extract media items (images & optional videos)
+        const mediaList = getProductMedia(product);
+        const hasMultipleMedia = mediaList.length > 1;
+
+        let mediaColHtml = '';
+        if (!hasMultipleMedia) {
+            // Single image: clean, zero slider controls, backward compatible
+            const singleMedia = mediaList[0] || { type: 'image', url: product.image };
+            mediaColHtml = `
+                <div class="modal-media-col">
+                    <img src="${singleMedia.url}" alt="${product.name}" class="modal-product-img" style="width: 100%; height: 100%; max-width: none; max-height: none; object-fit: contain; display: block;">
+                </div>
+            `;
+        } else {
+            // Multiple images/videos: automatic slider with arrows, counter & thumbnails
+            mediaColHtml = `
+                <div class="modal-media-col has-slider">
+                    <div class="modal-slider-wrap" id="modalSliderWrap">
+                        <div class="modal-slider-track" id="modalSliderTrack">
+                            ${mediaList.map((m, idx) => `
+                                <div class="modal-slide ${idx === 0 ? 'active' : ''}" data-slide-index="${idx}">
+                                    ${m.type === 'video' ? `
+                                        <video class="modal-product-video" controls playsinline preload="metadata" ${m.poster ? `poster="${m.poster}"` : ''}>
+                                            <source src="${m.url}" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    ` : `
+                                        <img src="${m.url}" alt="${product.name} - View ${idx + 1}" class="modal-product-img" style="width: 100%; height: 100%; max-width: none; max-height: none; object-fit: contain; display: block;">
+                                    `}
+                                </div>
+                            `).join('')}
+                        </div>
+
+                        <button type="button" class="modal-slider-arrow modal-slider-prev" id="modalSliderPrev" aria-label="Previous image">&#10094;</button>
+                        <button type="button" class="modal-slider-arrow modal-slider-next" id="modalSliderNext" aria-label="Next image">&#10095;</button>
+
+                        <div class="modal-media-counter" id="modalMediaCounter">
+                            <span id="activeSlideNum">1</span> / ${mediaList.length}
+                        </div>
+
+                        <div class="modal-thumb-strip" id="modalThumbStrip">
+                            ${mediaList.map((m, idx) => `
+                                <button type="button" class="modal-thumb-item ${idx === 0 ? 'active' : ''}" data-thumb-index="${idx}" aria-label="View slide ${idx + 1}">
+                                    ${m.type === 'video' ? `
+                                        <div class="thumb-video-badge">▶</div>
+                                        <img src="${m.poster || product.image}" alt="Thumb ${idx + 1}">
+                                    ` : `
+                                        <img src="${m.url}" alt="Thumb ${idx + 1}">
+                                    `}
+                                </button>
+                            `).join('')}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        const priceBoxHtml = isEnquiry ? `
+            <div class="modal-price-box modal-price-box-enquiry">
+                <span class="modal-enquiry-badge">
+                    <span class="enquiry-pulse-dot"></span>
+                    Price on WhatsApp Enquiry
+                </span>
+            </div>
+        ` : `
+            <div class="modal-price-box">
+                <span class="modal-price" id="modalPriceDisplay">₹${typeof currentVariant.price === 'number' ? currentVariant.price.toLocaleString('en-IN') : ''}</span>
+            </div>
+        `;
+
+        const actionRowHtml = isEnquiry ? `
+            <div class="modal-action-row modal-action-row-enquiry">
+                <a href="${getEnquiryWhatsAppUrl(product, currentVariant)}" 
+                   target="_blank" rel="noopener" class="btn btn-whatsapp-card modal-whatsapp-btn modal-enquiry-primary-btn" id="modalWhatsappEnquireBtn">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                        <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67Z"/>
+                    </svg>
+                    <span>Enquire on WhatsApp</span>
+                </a>
+            </div>
+        ` : `
+            <div class="modal-action-row">
+                <button type="button" class="btn btn-primary modal-add-cart-btn" id="modalAddCartBtn">
+                    Add to Bag &rarr;
+                </button>
+                <a href="https://wa.me/919620935209?text=${encodeURIComponent(`Hi Nanditha Aquarium! I'm interested in ${product.name} (${currentVariant.name}) priced at ₹${currentVariant.price}. Is it available for delivery?`)}" 
+                   target="_blank" rel="noopener" class="btn btn-whatsapp-card modal-whatsapp-btn">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                        <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67Z"/>
+                    </svg>
+                    <span>WhatsApp Enquire</span>
+                </a>
+            </div>
+        `;
 
         contentContainer.innerHTML = `
-            <div class="modal-media-col">
-                <img src="${product.image}" alt="${product.name}">
-            </div>
+            ${mediaColHtml}
             <div class="modal-details-col">
                 <span class="modal-cat-tag">${product.categoryName}</span>
                 <h2 class="modal-title">${product.name}</h2>
                 <p class="modal-subtitle">${product.subtitle}</p>
 
-                <div class="modal-price-box">
-                    <span class="modal-price" id="modalPriceDisplay">₹${currentVariant.price.toLocaleString('en-IN')}</span>
-                    <span class="modal-stock-info" id="modalStockDisplay">
-                        ✓ In Stock: ${currentVariant.stock} available
-                    </span>
-                </div>
+                ${priceBoxHtml}
 
                 <p class="modal-desc">${product.description}</p>
 
@@ -1077,20 +2001,17 @@
 
                 ${specsHtml ? `<div class="modal-specs-list">${specsHtml}</div>` : ''}
 
-                <div class="modal-action-row">
-                    <button type="button" class="btn btn-primary" id="modalAddCartBtn" style="flex: 1;">
-                        Add to Bag &rarr;
-                    </button>
-                    <a href="https://wa.me/919620935209?text=${encodeURIComponent(`Hi Nanditha Aquarium! I'm interested in ${product.name} (${currentVariant.name}) priced at ₹${currentVariant.price}. Is it available for delivery?`)}" 
-                       target="_blank" rel="noopener" class="btn btn-whatsapp-card" style="padding: 10px 18px;">
-                        WhatsApp Enquire
-                    </a>
-                </div>
+                ${actionRowHtml}
             </div>
         `;
 
         modalBackdrop.classList.add('active');
         document.body.style.overflow = 'hidden';
+
+        // Initialize slider controller if multiple media items exist
+        if (hasMultipleMedia) {
+            initModalSlider(contentContainer, mediaList);
+        }
 
         // Bind Modal Variant Switches
         const modalVariantBtns = contentContainer.querySelectorAll('[data-modal-variant-idx]');
@@ -1121,6 +2042,11 @@
         if (modalBackdrop) {
             modalBackdrop.classList.remove('active');
             document.body.style.overflow = '';
+            // Pause any playing videos
+            const videos = modalBackdrop.querySelectorAll('video');
+            videos.forEach(v => {
+                try { v.pause(); } catch (err) { }
+            });
         }
     }
 
@@ -1188,6 +2114,11 @@ Please confirm availability and share payment / delivery confirmation. Thank you
 
         resultsList.innerHTML = matches.map(product => {
             const defaultVariant = product.variants[0];
+            const isEnquiry = product.pricingType === 'enquiry';
+            const priceDisplay = (isEnquiry || typeof defaultVariant?.price !== 'number')
+                ? 'Price on Enquiry'
+                : `From ₹${defaultVariant.price.toLocaleString('en-IN')}`;
+
             return `
                 <div class="search-result-item" data-search-product-id="${product.id}">
                     <img src="${product.image}" alt="${product.name}" class="search-result-thumb">
@@ -1196,7 +2127,7 @@ Please confirm availability and share payment / delivery confirmation. Thank you
                         <span class="search-result-category">${product.categoryName} • ${product.variants.length} variant(s)</span>
                     </div>
                     <div class="search-result-price">
-                        From ₹${defaultVariant.price}
+                        ${priceDisplay}
                     </div>
                 </div>
             `;
@@ -1426,10 +2357,11 @@ Please confirm availability and share payment / delivery confirmation. Thank you
         // ---------------------------------------------------------------------
         const filterPills = document.querySelectorAll('.filter-pill');
         filterPills.forEach(pill => {
-            pill.addEventListener('click', (e) => {
+            pill.addEventListener('click', () => {
                 filterPills.forEach(p => p.classList.remove('active'));
                 pill.classList.add('active');
                 currentFilter = pill.getAttribute('data-filter');
+                visibleProductsLimit = PRODUCTS_PER_PAGE; // Reset limit when filter changes
                 renderProducts();
             });
         });
@@ -1441,6 +2373,30 @@ Please confirm availability and share payment / delivery confirmation. Thank you
         if (inlineSearch) {
             inlineSearch.addEventListener('input', (e) => {
                 currentSearchTerm = e.target.value;
+                visibleProductsLimit = PRODUCTS_PER_PAGE; // Reset limit when search changes
+                renderProducts();
+            });
+        }
+
+        // ---------------------------------------------------------------------
+        // Catalog Sort Select Dropdown
+        // ---------------------------------------------------------------------
+        const catalogSort = document.getElementById('catalogSortSelect');
+        if (catalogSort) {
+            catalogSort.addEventListener('change', (e) => {
+                currentSortOption = e.target.value;
+                visibleProductsLimit = PRODUCTS_PER_PAGE; // Reset limit on sort change
+                renderProducts();
+            });
+        }
+
+        // ---------------------------------------------------------------------
+        // Load More Products Button
+        // ---------------------------------------------------------------------
+        const loadMoreBtn = document.getElementById('loadMoreBtn');
+        if (loadMoreBtn) {
+            loadMoreBtn.addEventListener('click', () => {
+                visibleProductsLimit += PRODUCTS_PER_PAGE;
                 renderProducts();
             });
         }
@@ -1450,15 +2406,19 @@ Please confirm availability and share payment / delivery confirmation. Thank you
         // ---------------------------------------------------------------------
         const categoryCards = document.querySelectorAll('[data-category-target]');
         categoryCards.forEach(card => {
-            card.addEventListener('click', (e) => {
+            card.addEventListener('click', () => {
                 const targetCat = card.getAttribute('data-category-target');
                 if (targetCat === 'aquarium-acc' || targetCat === 'bird-acc') {
                     // Let normal navigation scroll to accessories section
                     return;
                 }
                 currentFilter = targetCat;
+                visibleProductsLimit = PRODUCTS_PER_PAGE;
                 filterPills.forEach(p => {
-                    p.classList.toggle('active', p.getAttribute('data-filter') === targetCat);
+                    const pillFilter = p.getAttribute('data-filter');
+                    const isDirect = pillFilter === targetCat;
+                    const isBirdSub = pillFilter === 'birds' && (targetCat === 'cockatiels' || targetCat === 'budgies');
+                    p.classList.toggle('active', isDirect || isBirdSub);
                 });
                 renderProducts();
             });
@@ -1467,12 +2427,16 @@ Please confirm availability and share payment / delivery confirmation. Thank you
         // Navigation links with data-filter attribute
         const navFilterLinks = document.querySelectorAll('[data-filter]');
         navFilterLinks.forEach(link => {
-            link.addEventListener('click', (e) => {
+            link.addEventListener('click', () => {
                 const cat = link.getAttribute('data-filter');
                 if (!cat) return;
                 currentFilter = cat;
+                visibleProductsLimit = PRODUCTS_PER_PAGE;
                 filterPills.forEach(p => {
-                    p.classList.toggle('active', p.getAttribute('data-filter') === cat);
+                    const pillFilter = p.getAttribute('data-filter');
+                    const isDirect = pillFilter === cat;
+                    const isBirdSub = pillFilter === 'birds' && (cat === 'cockatiels' || cat === 'budgies');
+                    p.classList.toggle('active', isDirect || isBirdSub);
                 });
                 renderProducts();
                 closeMobileDrawer();
@@ -1485,6 +2449,7 @@ Please confirm availability and share payment / delivery confirmation. Thank you
             btn.addEventListener('click', () => {
                 const cat = btn.getAttribute('data-quick-filter');
                 currentFilter = cat;
+                visibleProductsLimit = PRODUCTS_PER_PAGE;
                 filterPills.forEach(p => {
                     p.classList.toggle('active', p.getAttribute('data-filter') === cat);
                 });
@@ -1503,7 +2468,10 @@ Please confirm availability and share payment / delivery confirmation. Thank you
             resetBtn.addEventListener('click', () => {
                 currentFilter = 'all';
                 currentSearchTerm = '';
+                currentSortOption = 'featured';
+                visibleProductsLimit = PRODUCTS_PER_PAGE;
                 if (inlineSearch) inlineSearch.value = '';
+                if (catalogSort) catalogSort.value = 'featured';
                 filterPills.forEach(p => p.classList.toggle('active', p.getAttribute('data-filter') === 'all'));
                 renderProducts();
             });
@@ -1531,16 +2499,41 @@ Please confirm availability and share payment / delivery confirmation. Thank you
                                 btn.classList.toggle('selected', idx === variantIdx);
                             });
 
+                            const isEnquiry = product.pricingType === 'enquiry';
+                            const selectedVariant = product.variants[variantIdx];
+
                             // Update price text
                             const priceEl = card.querySelector(`#price-${productId}`);
                             if (priceEl) {
-                                priceEl.textContent = `₹${product.variants[variantIdx].price.toLocaleString('en-IN')}`;
+                                if (isEnquiry || typeof selectedVariant.price !== 'number') {
+                                    priceEl.style.display = 'none';
+                                } else {
+                                    priceEl.style.display = '';
+                                    priceEl.textContent = `₹${selectedVariant.price.toLocaleString('en-IN')}`;
+                                }
+                            }
+
+                            // Update price label
+                            const priceLabelEl = card.querySelector(`#price-label-${productId}`);
+                            if (priceLabelEl) {
+                                if (isEnquiry) {
+                                    priceLabelEl.style.display = 'none';
+                                } else {
+                                    priceLabelEl.style.display = '';
+                                    priceLabelEl.textContent = `Price (${selectedVariant.name}):`;
+                                }
+                            }
+
+                            // Update WhatsApp enquire button link on card if enquiry product
+                            const enquireBtn = card.querySelector(`#enquire-${productId}`);
+                            if (enquireBtn && isEnquiry) {
+                                enquireBtn.href = getEnquiryWhatsAppUrl(product, selectedVariant);
                             }
 
                             // Update stock/label text
                             const stockEl = card.querySelector(`#stock-text-${productId}`);
                             if (stockEl) {
-                                stockEl.textContent = product.variants[variantIdx].label || product.variants[variantIdx].name;
+                                stockEl.textContent = selectedVariant.label || selectedVariant.name;
                             }
                         }
                     }

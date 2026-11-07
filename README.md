@@ -83,6 +83,79 @@ The website includes an end-to-end theme switcher supporting both themes across 
 
 ---
 
+## 🗂️ Compact Retail Store Catalog Design
+- **Low-Height Section Padding**: Scaled from 90px to 38px–42px top/bottom to eliminate massive vertical scroll gaps.
+- **Compact Category Tiles**:
+  - Image height reduced to 112px (desktop) / 96px (mobile) with consistent aspect ratios and gentle 1.06x hover scaling.
+  - Clamped single-line typography with readable titles (0.95rem bold) and clean muted category summaries (0.76rem).
+  - Overall card height reduced by over 50% (~185px vs. previous ~390px).
+- **Clean Card Imagery (Overlay Badges Removed)**:
+  - Removed category name badges and stock count badges overlaying card media across all product and category cards.
+  - Reclaimed the upper image area to present clean, unobstructed photography across both desktop and mobile viewports.
+  - Stock data and inventory availability remain fully preserved in variant selectors and product details modal.
+- **Responsive Multi-Column Grids**:
+  - **Wide Monitors ($\ge 1320\text{px}$)**: 5 cards per row.
+  - **Standard Desktop & Laptop ($993\text{px}–1319\text{px}$)**: 4 cards per row (2 rows of 4).
+  - **Mobile ($\le 768\text{px}$)**: 2 cards per row (4 rows of 2).
+- **Zero Data Loss**: Retains all 8 core categories, imagery, tags, and interactive filter navigation links (`data-category-target`).
+
+---
+
+## 🛍️ Optimized Product Catalogue & Scroll Reduction
+The entire product catalogue browsing experience was re-architected to eliminate excessive page height while keeping product information legible and pleasant to browse:
+- **Responsive Product Grid**:
+  - **Extra-Wide Desktops ($\ge 1400\text{px}$)**: 5 products per row.
+  - **Standard Desktop & Laptop ($993\text{px}–1399\text{px}$)**: 4 products per row.
+  - **Tablet ($641\text{px}–992\text{px}$)**: 3 products per row.
+  - **Mobile ($\le 640\text{px}$)**: 2 products per row.
+  - **Ultra-Narrow Devices ($\le 340\text{px}$)**: 1 product per row.
+- **Compact Card Geometry**:
+  - Image height reduced to 165px (desktop), 145px–150px (tablet), and 125px (mobile).
+  - Compact padding (12px 14px on desktop, 8px 10px on mobile).
+  - Streamlined variant pills and action buttons (+ Add to Bag & View Details).
+  - Reclaimed card space by removing distracting top overlay badges.
+- **Horizontal Category Filter Chips**:
+  - 10 distinct, instant-action category chips: `All`, `Fish`, `Birds`, `Fish Food`, `Bird Food`, `Tanks`, `Fish Bowls`, `Imported Tanks`, `Bird Accessories`, `Aquarium Accessories`.
+  - Horizontally scrollable with smooth touch momentum on mobile screens, avoiding multi-line wrapping.
+- **Clean 12-Item Pagination (Load More)**:
+  - Displays 12 products on initial load instead of rendering all 33 products at once, cutting initial catalog height by ~75%.
+  - Clean "Load More Products" button progressively adds 12 items per click.
+  - Shows dynamic counter: e.g. "Showing 12 of 33 products" with completion indicator ("✓ All 33 products loaded").
+  - Category switching and search queries reset the pagination limit back to 12.
+- **Search & Sort Integration**:
+  - Real-time instant search input filtering by product name, variant, and description.
+  - Sort dropdown options: Featured, Price: Low to High, Price: High to Low, Name: A to Z.
+  - Cohesive synergy: Category filters, search keywords, sorting, and pagination work seamlessly together.
+
+---
+
+## 🔍 Product Details Modal Architecture & Image Presentation
+The product quick-view modal layout has been implemented following the exact reference design:
+- **Dramatically Larger Left Image Section (~50% Width & FULL Modal Height)**:
+  - The left image column (`.modal-media-col`) spans 50% of the desktop modal width and stretches to the **FULL available height of the modal** via `.product-modal { height: min(680px, 90vh); display: flex; overflow: hidden; }` and `.modal-media-col { height: 100% !important; align-self: stretch !important; }`.
+  - Both columns stretch to the exact same full height, completely eliminating any empty white space or void below the image.
+  - The image inside uses `width: 100%; height: 100%; object-fit: contain; object-position: center;`, scaling to the maximum possible dimension while remaining vertically and horizontally centered.
+- **Uncropped & Centered (`object-fit: contain`)**:
+  - `object-fit: contain` with `object-position: center` ensures the entire product silhouette (complete fins, tail spreads, feathers, tank glass) is 100% visible with natural proportions.
+- **Deep High-Contrast Studio Backdrop**:
+  - Encased in a seamless deep aquatic black background (`#020813`) with subtle border styling, allowing fish, birds, and tanks to pop with studio-grade vibrancy in both Dark and Light themes.
+- **Right Information & Action Layout**:
+  - Category eyebrow in vibrant cyan (`AQUARIUM FISH`).
+  - Bold product title, muted subtitle, and inline price/stock indicators.
+  - Interactive variant selector with clear active pill highlight.
+  - Structured key-value technical specifications table.
+  - Right details column features internal scrolling (`overflow-y: auto;`) with custom slim scrollbar so content never overflows the viewport.
+  - Stacked full-width pill action buttons: `Add to Bag →` (ocean blue pill) and `WhatsApp Enquire` (vibrant green pill with WhatsApp icon).
+- **Responsive Stacking**:
+  - **Desktop ($1024\text{px}+$, including $1366\text{px}$, $1440\text{px}$, and $1920\text{px}$)**: 50/50 two-column full-height layout.
+  - **Tablet ($641\text{px}–992\text{px}$)**: Clean single-column vertical stack with `height: 320px` contain-fitted media.
+  - **Mobile ($\le 768\text{px}$ / $\le 480\text{px}$)**: Single-column vertical stack with `height: 220px–230px` media.
+  - **Ultra-Narrow ($\le 340\text{px}$)**: `height: 200px` media.
+- **Universal Application**:
+  - Applies consistently across all 34 products in the store without altering product data, pricing, variants, cart, or WhatsApp fulfillment.
+
+---
+
 ## 🖥️ Desktop & PC Responsiveness Architecture
 The desktop experience is engineered and tested across 1024px, 1280px, 1366px, 1440px, 1600px, and 1920px viewports:
 - **Desktop Navbar**:
@@ -93,7 +166,7 @@ The desktop experience is engineered and tested across 1024px, 1280px, 1366px, 1
 - **Category Grid**:
   - Symmetrical 4-column desktop grid (2 rows of 4 = 8 categories) across all desktop sizes ($\ge 1024\text{px}$), eliminating stranded cards.
 - **Product Catalogue**:
-  - 4-column grid on standard/large desktop screens ($\ge 1200\text{px}$), 3-column grid on medium laptops (993px–1199px, including 1024px).
+  - 4-column grid on standard/large desktop screens ($993\text{px}–1399\text{px}$), 5-column grid on wide screens ($\ge 1400\text{px}$), 3-column grid on tablets ($641\text{px}–992\text{px}$).
   - Uniform card dimensions with clamped titles, fixed subtitle slots, and bottom-anchored price/action buttons.
 - **Content & Information Accuracy**:
   - Business details strictly aligned with confirmed data: Open daily until 10 PM, 4.4★ Google Rating (516 reviews), retail shopping & doorstep delivery.
