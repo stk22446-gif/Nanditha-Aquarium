@@ -497,16 +497,19 @@
 
         // --- B. FISH FOOD ---
         {
-            id: 'food-hikari-micro',
+            id: 'food-INTAN-Micro-Bits',
             category: 'fish-food',
             categoryName: 'Fish Food',
-            name: 'Hikari Micro Pellets (Japan)',
-            subtitle: 'Brand: Hikari Japan • Complete Nutrition',
-            image: 'https://images.unsplash.com/photo-1534043464124-3be32fe000c9?auto=format&fit=crop&w=800&q=80',
-            description: 'Multi-colored micro-granules designed for small-mouth tropical fish like Tetras, Guppies, and Platys. Enriched with marine protein and spirulina for color enhancement.',
+            name: 'INTAN Micro Bits Slowly Sinking Crumble',
+            subtitle: 'Brand: INTAN • Complete Nutrition',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794091789/2a40ac0e-2d5d-43b2-a195-98793f7d57fb.png',
+            image2: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794091837/6f3f65ff-4262-425c-903b-cb39363bfeac.png',
+            image3: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794091851/ede55f7d-fc96-4e4d-9ad4-6d2aa6a1f48f.png',
+            image4: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794092034/a7d7404e-4d81-4552-8d2e-0bf3a01254de.png',
+            description: 'Large Pack Pellet Size (0.4mm - 0.6mm) 0.14 kg Dry Food for Adult, Young, All Life Stages, New Born, Senior Fish',
             specs: {
-                'Brand': 'Hikari (Made in Japan)',
-                'Type': 'Slow Sinking Micro Pellets',
+                'Brand': 'INTAN (Made in Malaysia)',
+                'Type': 'Micro Pellet',
                 'Beneficial For': 'Tetras, Guppies, Barbs, Bettas',
                 'Shelf Life': '24 Months'
             },
@@ -582,43 +585,23 @@
             id: 'bird-cockatiel-lutino',
             category: 'cockatiels',
             categoryName: 'Cockatiels',
-            name: 'Lutino Cockatiel (Hand-Tamed)',
+            name: 'Lutino Cockatiel',
             subtitle: 'Nymphicus hollandicus • Lemon Crest & Orange Cheeks',
-            image: 'https://images.unsplash.com/photo-1549608276-5786777e6587?auto=format&fit=crop&w=800&q=80',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794090267/98ea703f-5895-4af4-a5b5-5f3e524b012b.png',
+            image2: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794090314/222c87a1-e12f-455c-becf-c80954d9aaea.png',
+            image3: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794090352/392cb981-f51b-4a66-b58e-548edb2bd1e3.png',
             description: 'Charming snow-and-buttercup yellow mutation with distinct sunset orange cheek patches and fiery red eyes. Hand-raised, socialized, and loves head scratches.',
             specs: {
                 'Mutation': 'Pure Lutino (Yellow & White)',
-                'Age': '3.5 - 5 Months (Weaned & Independent)',
                 'Temperament': 'Affectionate, Whistling, Cuddly',
                 'Lifespan': '15 - 20 Years'
             },
             variants: [
-                { name: 'Male (Singing)', price: 2600, stock: 4, label: 'Male • Vocal & Whistling' },
-                { name: 'Female (Gentle)', price: 2300, stock: 5, label: 'Female • Calm & Sweet' },
-                { name: 'Unisex / Young', price: 2100, stock: 3, label: 'Young Weaned (Gender Unknown)' }
+                { name: 'Male (Singing)', price: 3000, label: 'Male • Vocal & Whistling' },
+                { name: 'Female (Gentle)', price: 2700, label: 'Female • Calm & Sweet' },
+                { name: 'Pair (Male + Female)', price: 5500, label: 'Pair' }
             ],
             featured: true
-        },
-        {
-            id: 'bird-cockatiel-pied',
-            category: 'cockatiels',
-            categoryName: 'Cockatiels',
-            name: 'Pied & Pearl Cockatiel Pair',
-            subtitle: 'Nymphicus hollandicus • Scalloped Feather Pattern',
-            image: 'https://images.unsplash.com/photo-1522858547137-f1dcec554f55?auto=format&fit=crop&w=800&q=80',
-            description: 'Unique mottled grey-and-yellow feather patterns with elegant scalloped wings. Active personality, very responsive to human voice and mimicry.',
-            specs: {
-                'Mutation': 'High Pied / Pearl Feathering',
-                'Age': '4 Months',
-                'Health': 'Dewormed & Diet Acclimatized',
-                'Diet': 'Foxtail millet, sunflower kernels, sprouts'
-            },
-            variants: [
-                { name: 'Male', price: 2400, stock: 3, label: 'Male • Tune Mimicker' },
-                { name: 'Female', price: 2100, stock: 4, label: 'Female • Gentle Companion' },
-                { name: 'Bonded Pair (M+F)', price: 4200, stock: 2, label: 'Bonded Pair (Save ₹300)' }
-            ],
-            featured: false
         },
         {
             id: 'bird-cockatiel-grey',
@@ -626,18 +609,19 @@
             categoryName: 'Cockatiels',
             name: 'Classic Grey Normal Cockatiel',
             subtitle: 'Wild Type Ancestral Form • Robust & Intelligent',
-            image: 'https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=800&q=80',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794090679/69059d22-8dd8-4058-8822-bfe8fc2d07d6.png',
+            image2: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794090710/97949d30-b053-41a2-8eba-03592b1b3a27.png',
+            image3: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794090886/10c79765-f853-4aa7-8247-1c93be94f445.png',
             description: 'The natural wild-type coloration known for unmatched vocal clarity, robust immune resistance, and striking white wing flashbars.',
             specs: {
                 'Mutation': 'Ancestral Grey',
-                'Age': '3 Months',
                 'Vocal Ability': 'High whistling capacity',
                 'Housing': 'Spacious cage with natural perches'
             },
             variants: [
-                { name: 'Male', price: 2100, stock: 6, label: 'Male • Bright Yellow Mask' },
-                { name: 'Female', price: 1850, stock: 5, label: 'Female • Barred Tail' },
-                { name: 'Unisex', price: 1750, stock: 4, label: 'Young Unisex' }
+                { name: 'Male', price: 2400, label: 'Male • Bright Yellow Mask' },
+                { name: 'Female', price: 2000, label: 'Female • Barred Tail' },
+                { name: 'Pair (Male + Female)', price: 4000, label: 'Pair' }
             ],
             featured: false
         },
@@ -647,13 +631,14 @@
             id: 'bird-budgie-skyblue',
             category: 'budgies',
             categoryName: 'Budgies',
-            name: 'Sky Blue Opaline Budgie',
-            subtitle: 'Melopsittacus undulatus • English & Australian Bloodlines',
-            image: 'https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=800&q=80',
+            name: 'Budgie',
+            subtitle: 'Melopsittacus undulatus',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794091198/870d9235-6a46-4dce-b843-dd96d5cc8290.png',
+            image2: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794091132/3c70eec1-4da7-4ec0-a6dc-4e30f496b734.png',
+            video: 'https://res.cloudinary.com/dfzk4sfkw/video/upload/v1794091314/ab606f961af04e028b5949eff71b7f80_720w_qkienp.mp4',
             description: 'Playful and spirited parakeet featuring dazzling sky-blue belly plumage with soft opaline mantle bars. Very communicative, social, and easy to tame.',
             specs: {
                 'Colour': 'Vibrant Sky Blue / Cobalt',
-                'Age': '2 - 3.5 Months',
                 'Social Needs': 'High (Enjoys mirrors & bells)',
                 'Lifespan': '7 - 10 Years'
             },
@@ -664,57 +649,17 @@
             ],
             featured: true
         },
-        {
-            id: 'bird-budgie-yellow-lutino',
-            category: 'budgies',
-            categoryName: 'Budgies',
-            name: 'Lutino & Albino Solid Budgies',
-            subtitle: 'Melopsittacus undulatus • Solid Yellow / White Mutations',
-            image: 'https://images.unsplash.com/photo-1549608276-5786777e6587?auto=format&fit=crop&w=800&q=80',
-            description: 'Pure solid canary-yellow and snow-white budgies with ruby eyes. Eye-catching birds that add cheerful color and melodious chatter to any room.',
-            specs: {
-                'Colour': 'Pure Lutino Yellow / Pure Albino White',
-                'Age': '2.5 Months',
-                'Temperament': 'Lively, Acrobatic, Vocal',
-                'Diet': 'Millet blend, coriander leaves, boiled egg'
-            },
-            variants: [
-                { name: 'Lutino Yellow (Male)', price: 420, stock: 8, label: 'Lutino Yellow Male' },
-                { name: 'Lutino Yellow (Female)', price: 380, stock: 9, label: 'Lutino Yellow Female' },
-                { name: 'Albino White (Unisex)', price: 400, stock: 6, label: 'Pure Albino White' }
-            ],
-            featured: false
-        },
-        {
-            id: 'bird-budgie-green',
-            category: 'budgies',
-            categoryName: 'Budgies',
-            name: 'Emerald Green Heritage Budgie',
-            subtitle: 'Wild Green Lineage • High Energy & Robust',
-            image: 'https://images.unsplash.com/photo-1608096299210-db7e38487075?auto=format&fit=crop&w=800&q=80',
-            description: 'The energetic classic budgerigar with brilliant grass-green chest and yellow face mask. Inquisitive nature, loves flying across the cage and ringing toys.',
-            specs: {
-                'Colour': 'Emerald Green / Olive',
-                'Age': '3 Months',
-                'Care Level': 'Beginner Friendly',
-                'Origin': 'Locally Acclimatized Breeder'
-            },
-            variants: [
-                { name: 'Male', price: 300, stock: 20, label: 'Male' },
-                { name: 'Female', price: 270, stock: 22, label: 'Female' },
-                { name: 'Unisex', price: 250, stock: 15, label: 'Juvenile' }
-            ],
-            featured: false
-        },
 
         // --- E. BIRD FOOD ---
         {
             id: 'food-bird-millet-spray',
             category: 'bird-food',
             categoryName: 'Bird Food',
-            name: 'Sun-Cured Golden Spray Millet (500g)',
+            name: 'Kangni Seeds for Birds',
             subtitle: 'Natural Foraging Treat for Cockatiels & Budgies',
-            image: 'https://images.unsplash.com/photo-1608096299210-db7e38487075?auto=format&fit=crop&w=800&q=80',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794088810/074ec3ef-9aad-4157-819a-454d3f040cab.png',
+            image2: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794088840/dc7ce366-f802-4054-be49-ae2e30b914d2.png',
+            image3: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794088902/31b965eb-9ad6-4bd5-b3e5-0d26c2238f72.png',
             description: 'Top-grade whole golden foxtail millet stalks grown under sunshine. Irresistible treat essential for hand-taming birds, weaning chicks, and rewarding good behavior.',
             specs: {
                 'Net Weight': '500g Fresh Stalks',
@@ -735,7 +680,8 @@
             categoryName: 'Bird Food',
             name: 'Fortified Multi-Seed Daily Blend',
             subtitle: 'Canary Seed, Yellow Millet, Red Millet & Sunflower Kernels',
-            image: 'https://images.unsplash.com/photo-1591154669695-5f2a8d20c089?auto=format&fit=crop&w=800&q=80',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794088364/85102045-8881-471f-9c82-34f9423dea99.png',
+            image2: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794088156/4d2789c5-6c32-4f16-9fc3-81f247d4f988.png',
             description: 'Triple-cleaned seed mixture fortified with essential amino acids, vitamin pellets, and crushed oyster shell for optimal gizzard digestion and feather sheen.',
             specs: {
                 'Ingredients': 'Yellow millet, white millet, canary seed, niger, safflower',
@@ -743,8 +689,8 @@
                 'Shelf Life': '12 Months'
             },
             variants: [
-                { name: 'Budgie Blend (1kg)', price: 210, stock: 30, label: '1kg Budgie Blend' },
-                { name: 'Cockatiel Blend (1kg)', price: 240, stock: 25, label: '1kg Cockatiel Blend (with Sunflower)' }
+                { name: 'Budgie Blend (500g)', price: 100, stock: 30, label: '1kg Budgie Blend' },
+                { name: 'Cockatiel Blend (500g)', price: 120, stock: 25, label: '1kg Cockatiel Blend (with Sunflower)' }
             ],
             featured: false
         },
@@ -752,31 +698,33 @@
             id: 'food-bird-cuttlefish-calcium',
             category: 'bird-food',
             categoryName: 'Bird Food',
-            name: 'Natural Cuttlefish Bone with Metal Holder',
+            name: ' Natural Calcium Block with Minerals for Birds',
             subtitle: 'Pure Calcium Carbonate & Beak Conditioning',
-            image: 'https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=800&q=80',
-            description: 'Genuine marine cuttlebone rich in bioavailable calcium and trace minerals. Essential for eggshell formation in breeding females and keeps beaks trimmed.',
+            pricingType: 'enquiry',//'fixed'
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794089510/524870ad-0c3a-472c-b183-713fec4f0652.png',
+            image2: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794089533/9abb4e53-dc79-4c79-bb27-d26861b31f21.png',
+            image3: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794089551/5686d918-1b1c-4a5e-ae22-b38b83b2d27a.png',
+            image4: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794089615/0d4dae25-697b-426e-a881-c7b99a8a5325.png',
+            description: 'Natural Calcium Block with Minerals for Birds | High Calcium Bird Supplement',
             specs: {
                 'Package': '2 Bones with metal cage clamps',
                 'Length': '6 - 7 inches each',
                 'Benefit': 'Prevents soft egg binding & overgrown beaks'
             },
             variants: [
-                { name: 'Twin Pack (2 pcs)', price: 120, stock: 35, label: 'Twin Pack (2 pcs)' },
-                { name: 'Pack of 5', price: 260, stock: 20, label: 'Pack of 5 (Save ₹40)' }
-            ],
+                { name: 'Twin Pack (2 pcs)', price: 120, stock: 35, label: 'Twin Pack (2 pcs)' },],
             featured: false
         },
 
-        // --- F. AQUARIUM TANKS ---
+        // --- F. INDIAN TANKS (Regular Fish Tanks) ---
         {
             id: 'tank-12x6x6-top',
-            category: 'Tank',
-            categoryName: 'Fish Tank',
+            category: 'fish-tank',
+            categoryName: 'Indian Tank',
             name: 'Fish Tank (12x6x6) with Tank Top',
             subtitle: '12 x 6 x 6 inches • Glass Tank with Top Cover',
             pricingType: 'fixed',
-            image: 'https://images.unsplash.com/photo-1520315342629-6ea920342047?auto=format&fit=crop&w=800&q=80',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794073070/02b71e0f-29a9-4e72-a020-ec53e677549c.png',
             description: 'Clear glass fish tank measuring 12x6x6 inches with matching protective glass tank top cover. Suitable for small aquarium setups, desktop displays, and aquatic pets.',
             specs: {
                 'Dimensions': '12 x 6 x 6 inches',
@@ -790,12 +738,12 @@
         },
         {
             id: 'tank-12x6x8-top',
-            category: 'Tank',
-            categoryName: 'Fish Tank',
+            category: 'fish-tank',
+            categoryName: 'Indian Tank',
             name: 'Fish Tank (12x6x8) with Tank Top',
             subtitle: '12 x 6 x 8 inches • Glass Tank with Top Cover',
             pricingType: 'fixed',
-            image: 'https://images.unsplash.com/photo-1520315342629-6ea920342047?auto=format&fit=crop&w=800&q=80',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794073492/ca3f4982-3a87-4e87-bdee-ce8b2dee627e.png',
             description: 'Clear glass fish tank measuring 12x6x8 inches with matching protective glass tank top cover. Offers added vertical swimming height for desktop aquariums.',
             specs: {
                 'Dimensions': '12 x 6 x 8 inches',
@@ -809,12 +757,12 @@
         },
         {
             id: 'tank-18x9x9-top',
-            category: 'Tank',
-            categoryName: 'Fish Tank',
+            category: 'fish-tank',
+            categoryName: 'Indian Tank',
             name: 'Fish Tank (18x9x9) with Tank Top',
             subtitle: '18 x 9 x 9 inches • Glass Tank with Top Cover',
             pricingType: 'fixed',
-            image: 'https://images.unsplash.com/photo-1520315342629-6ea920342047?auto=format&fit=crop&w=800&q=80',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794073659/c2dd54ac-a3f6-46af-aeb0-0e20837af5a2.png',
             description: 'Rectangular clear glass aquarium measuring 18x9x9 inches with protective glass tank top. Balanced dimensions for small planted setups and community fish.',
             specs: {
                 'Dimensions': '18 x 9 x 9 inches',
@@ -828,12 +776,12 @@
         },
         {
             id: 'tank-18x9x12-top',
-            category: 'Tank',
-            categoryName: 'Fish Tank',
+            category: 'fish-tank',
+            categoryName: 'Indian Tank',
             name: 'Fish Tank (18x9x12) with Tank Top',
             subtitle: '18 x 9 x 12 inches • Glass Tank with Top Cover',
             pricingType: 'fixed',
-            image: 'https://images.unsplash.com/photo-1520315342629-6ea920342047?auto=format&fit=crop&w=800&q=80',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794073919/b3732ccb-c42f-49e3-82d6-d0c2f12f4932.png',
             description: 'Clear glass aquarium measuring 18x9x12 inches with matching glass tank top cover. Generous depth and vertical swimming area for planted aquascapes.',
             specs: {
                 'Dimensions': '18 x 9 x 12 inches',
@@ -847,12 +795,12 @@
         },
         {
             id: 'tank-24x12x12-top',
-            category: 'Tank',
-            categoryName: 'Fish Tank',
+            category: 'fish-tank',
+            categoryName: 'Indian Tank',
             name: 'Fish Tank (24x12x12) with Tank Top',
             subtitle: '24 x 12 x 12 inches • 2-Foot Glass Tank with Top Cover',
             pricingType: 'fixed',
-            image: 'https://images.unsplash.com/photo-1508873696983-2df5293cb395?auto=format&fit=crop&w=800&q=80',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794076058/4c83ba3f-d013-4b62-ae36-ce072376cc75.png',
             description: 'Standard 2-foot glass aquarium measuring 24x12x12 inches complete with protective glass tank top. Ideal for community freshwater fish and planted layouts.',
             specs: {
                 'Dimensions': '24 x 12 x 12 inches',
@@ -866,12 +814,12 @@
         },
         {
             id: 'tank-24x12x15-top',
-            category: 'Tank',
-            categoryName: 'Fish Tank',
+            category: 'fish-tank',
+            categoryName: 'Indian Tank',
             name: 'Fish Tank (24x12x15) with Tank Top',
             subtitle: '24 x 12 x 15 inches • 2-Foot Tall Glass Tank with Top Cover',
             pricingType: 'fixed',
-            image: 'https://images.unsplash.com/photo-1508873696983-2df5293cb395?auto=format&fit=crop&w=800&q=80',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794074147/9b8c077e-26ec-488e-9f31-086269c00c84.png',
             description: 'Spacious 2-foot tall profile glass fish tank measuring 24x12x15 inches with protective glass tank top. Provides extra water volume and panoramic viewing.',
             specs: {
                 'Dimensions': '24 x 12 x 15 inches',
@@ -885,12 +833,12 @@
         },
         {
             id: 'tank-30x12x15-8mm-top',
-            category: 'Tank',
-            categoryName: 'Fish Tank',
+            category: 'fish-tank',
+            categoryName: 'Indian Tank',
             name: 'Fish Tank (30x12x15) with Tank Top (8mm)',
             subtitle: '30 x 12 x 15 inches • 8mm Glass • Includes Tank Top',
             pricingType: 'fixed',
-            image: 'https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?auto=format&fit=crop&w=800&q=80',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794082205/9d0422c6-c7ba-495e-b645-728b83cea3c8.png',
             description: 'Heavy-duty 2.5-foot fish tank constructed with 8mm thick glass for exceptional structural strength and durability. Includes protective glass tank top cover.',
             specs: {
                 'Dimensions': '30 x 12 x 15 inches',
@@ -905,12 +853,12 @@
         },
         {
             id: 'tank-36x15x18-8mm-top',
-            category: 'Tank',
-            categoryName: 'Fish Tank',
+            category: 'fish-tank',
+            categoryName: 'Indian Tank',
             name: 'Fish Tank (36x15x18) with Tank Top (8mm)',
             subtitle: '36 x 15 x 18 inches • 8mm Glass • Includes Tank Top',
             pricingType: 'fixed',
-            image: 'https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?auto=format&fit=crop&w=800&q=80',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794082855/9e626f52-09f7-47e1-9e10-6599c7e43ed1.png',
             description: 'Expansive 3-foot display aquarium constructed from 8mm heavy-duty glass with matching protective glass tank top cover. Ideal for large community setups.',
             specs: {
                 'Dimensions': '36 x 15 x 18 inches',
@@ -923,85 +871,275 @@
             ],
             featured: true
         },
+
+        // --- G. FISH BOWLS ---
         {
-            id: 'tank-nano-rimless',
-            category: 'Tank',
-            categoryName: 'Aquarium Tanks',
-            name: 'Crystal Clear Rimless Nano Cube',
-            subtitle: '30x30x30 cm • 27 Litres • Low-Iron Float Glass',
-            image: 'https://images.unsplash.com/photo-1520315342629-6ea920342047?auto=format&fit=crop&w=800&q=80',
-            description: 'Modern minimalist aquascaping tank crafted from high-transmittance low-iron glass with German translucent silicone seams and diamond-beveled edges. Leveling mat included.',
+            id: 'bowl-4-inch',
+            category: 'fish-bowl',
+            categoryName: 'Fish Bowl',
+            name: 'Fish Bowl (4 Inch)',
+            subtitle: '4 Inch Diameter • Clear Float Glass Bowl',
+            pricingType: 'fixed',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794085614/6f7a41de-f5f2-495b-b959-dc13d6142e02.png',
+            description: 'Classic round glass fish bowl measuring 4 inches in diameter. Compact decorative bowl suitable for aquatic plants, marimo moss balls, and tabletop aquatic setups.',
             specs: {
-                'Dimensions': '30 x 30 x 30 cm (12 x 12 x 12 inches)',
-                'Capacity': '27 Litres (7.1 Gallons)',
-                'Glass Thickness': '5mm Ultra-Clear Glass',
-                'Inclusions': 'Black foam leveling base mat'
+                'Diameter': '4 Inches',
+                'Material': 'High-Clarity Glass',
+                'Shape': 'Spherical Round Bowl'
             },
             variants: [
-                { name: '30cm Cube (27L)', price: 1450, stock: 8, label: '30cm Cube • 27L' },
-                { name: '40cm Cube (64L)', price: 2400, stock: 5, label: '40cm Cube • 64L' }
+                { name: '4 Inch', price: 60, label: '4 Inch • ₹60' }
             ],
             featured: false
         },
         {
-            id: 'tank-medium-rimless',
-            category: 'Tank',
-            categoryName: 'Aquarium Tanks',
-            name: '2-Feet Planted Aquascape Tank',
-            subtitle: '60x30x36 cm • 64 Litres • 6mm Beveled Glass',
-            image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80',
-            description: 'The golden ratio standard for home aquascaping and community fish. Wide panoramic perspective allows generous swimming space for schooling tetras and planted sceneries.',
+            id: 'bowl-6-inch',
+            category: 'fish-bowl',
+            categoryName: 'Fish Bowl',
+            name: 'Fish Bowl (6 Inch)',
+            subtitle: '6 Inch Diameter • Clear Float Glass Bowl',
+            pricingType: 'fixed',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794085721/62225a8e-4e90-48a0-a318-8b1e6fc48725.png',
+            description: 'Spherical glass fish bowl measuring 6 inches in diameter. Offers 360-degree clear viewing, perfect for tabletop planted aquascapes and decorative aquatic displays.',
             specs: {
-                'Dimensions': '60 x 30 x 36 cm (24 x 12 x 14 inches)',
-                'Capacity': '64 Litres (17 Gallons)',
-                'Glass Type': '6mm High Precision Float Glass',
-                'Warranty': '1 Year Leakproof Warranty'
+                'Diameter': '6 Inches',
+                'Material': 'High-Clarity Glass',
+                'Shape': 'Spherical Round Bowl'
             },
             variants: [
-                { name: 'Standard Float (6mm)', price: 2850, stock: 6, label: 'Standard Float Glass • ₹2,850' },
-                { name: 'Ultra-White Low Iron', price: 3950, stock: 4, label: 'Ultra-Clear Optiwhite • ₹3,950' }
+                { name: '6 Inch', price: 100, label: '6 Inch • ₹100' }
             ],
             featured: false
         },
         {
-            id: 'tank-curved-corner',
-            category: 'Tank',
-            categoryName: 'Aquarium Tanks',
-            name: 'Seamless Curved Front Glass Aquarium',
-            subtitle: 'Bent Glass Panoramic Display with Molded Hood',
-            image: 'https://images.unsplash.com/photo-1508873696983-2df5293cb395?auto=format&fit=crop&w=800&q=80',
-            description: 'One-piece curved front glass bends seamlessly around the corners for distortion-free viewing from any room angle. Perfect for living room credenzas.',
+            id: 'bowl-8-inch',
+            category: 'fish-bowl',
+            categoryName: 'Fish Bowl',
+            name: 'Fish Bowl (8 Inch)',
+            subtitle: '8 Inch Diameter • Clear Float Glass Bowl',
+            pricingType: 'fixed',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794085931/a7ed3e2b-a4a5-4e93-96b8-ec6143d9aa0c.png',
+            description: 'Spacious 8-inch round glass fish bowl with a wide opening for easy maintenance. Great for desktop aquatic plants, decorative stones, and miniature aquascapes.',
             specs: {
-                'Dimensions': '45 x 28 x 35 cm',
-                'Capacity': '44 Litres',
-                'Design': 'Seamless hot-bent 90° corners',
-                'Glass Thickness': '5mm'
+                'Diameter': '8 Inches',
+                'Material': 'High-Clarity Glass',
+                'Shape': 'Spherical Round Bowl'
             },
             variants: [
-                { name: '1.5ft Curved (44L)', price: 2150, stock: 5, label: '1.5ft Curved (44L)' },
-                { name: '2.5ft Curved (95L)', price: 4600, stock: 3, label: '2.5ft Curved (95L)' }
+                { name: '8 Inch', price: 125, label: '8 Inch • ₹125' }
             ],
             featured: false
         },
         {
-            id: 'tank-custom-3ft',
-            category: 'Tank',
-            categoryName: 'Aquarium Tanks',
-            name: '3-Feet Heavy Display Aquarium',
-            subtitle: '90x45x45 cm • 182 Litres • 8mm Toughened Glass',
-            image: 'https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?auto=format&fit=crop&w=800&q=80',
-            description: 'Spacious exhibition tank engineered to support dense rock layouts, driftwood branch systems, and larger fish like Discus, Angelfish, and Silver Dollars.',
+            id: 'bowl-10-inch',
+            category: 'fish-bowl',
+            categoryName: 'Fish Bowl',
+            name: 'Fish Bowl (10 Inch)',
+            subtitle: '10 Inch Diameter • Clear Float Glass Bowl',
+            pricingType: 'fixed',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794086068/94f2cefd-dd3f-4339-a59c-04514fcf27af.png',
+            description: 'Generously sized 10-inch glass fish bowl offering ample water volume and wide panoramic viewing for living room credenzas or office desktops.',
             specs: {
-                'Dimensions': '90 x 45 x 45 cm (36 x 18 x 18 inches)',
-                'Capacity': '182 Litres (48 Gallons)',
-                'Glass': '8mm Machine Polished Float Glass',
-                'Silicon': 'High-tensile Dow Corning structural bond'
+                'Diameter': '10 Inches',
+                'Material': 'High-Clarity Glass',
+                'Shape': 'Spherical Round Bowl'
             },
             variants: [
-                { name: 'Tank Only (8mm)', price: 5400, stock: 3, label: 'Tank Only (8mm Glass)' },
-                { name: 'Tank + Metal Stand Combo', price: 8900, stock: 2, label: 'Tank + Heavy Stand Combo' }
+                { name: '10 Inch', price: 225, label: '10 Inch • ₹225' }
             ],
             featured: false
+        },
+        {
+            id: 'bowl-12-inch',
+            category: 'fish-bowl',
+            categoryName: 'Fish Bowl',
+            name: 'Fish Bowl (12 Inch)',
+            subtitle: '12 Inch Diameter • Clear Float Glass Bowl',
+            pricingType: 'fixed',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794086216/05c39ed4-c46b-4593-93de-6b091f92196b.png',
+            description: 'Extra-large 12-inch glass fish bowl with maximum viewing surface and generous water capacity. Thick, high-clarity glass suitable for decorative planted mini-ecosystems.',
+            specs: {
+                'Diameter': '12 Inches',
+                'Material': 'High-Clarity Glass',
+                'Shape': 'Spherical Round Bowl'
+            },
+            variants: [
+                { name: '12 Inch', price: 375, label: '12 Inch • ₹375' }
+            ],
+            featured: false
+        },
+
+        // --- H. IMPORTED TANKS ---
+        {
+            id: 'tank-imported-pf-260',
+            category: 'imported-tank',
+            categoryName: 'Imported Tank',
+            name: 'Imported Tank PF 260',
+            subtitle: 'Model: PF 260 • Curved Glass Aquarium with Hood',
+            pricingType: 'fixed',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794083247/7ecb733d-ace0-4085-97ea-2313d2a27e6a.png',
+            description: 'Compact imported aquarium featuring seamless curved front glass corners, integrated top filtration, and built-in hood lighting for convenient desktop placement.',
+            specs: {
+                'Model': 'PF 260',
+                'Design': 'Seamless Curved Front Glass',
+                'Features': 'Top Hood with Filtration Support'
+            },
+            variants: [
+                { name: 'PF 260', price: 1250, label: 'PF 260 • ₹1,250' }
+            ],
+            featured: true
+        },
+        {
+            id: 'tank-imported-pf-320',
+            category: 'imported-tank',
+            categoryName: 'Imported Tank',
+            name: 'Imported Tank PF 320',
+            subtitle: 'Model: PF 320 • Curved Glass Aquarium with Hood',
+            pricingType: 'fixed',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794083739/990b11ba-5ce2-4b65-a04d-b4828ce1317c.png',
+            description: 'Imported glass aquarium with bent panoramic corners and modern molded hood. Engineered for easy maintenance and crystal-clear viewing.',
+            specs: {
+                'Model': 'PF 320',
+                'Design': 'Seamless Curved Front Glass',
+                'Features': 'Top Hood with Filtration Support'
+            },
+            variants: [
+                { name: 'PF 320', price: 2000, label: 'PF 320 • ₹2,000' }
+            ],
+            featured: true
+        },
+        {
+            id: 'tank-imported-pf-400',
+            category: 'imported-tank',
+            categoryName: 'Imported Tank',
+            name: 'Imported Tank PF 400',
+            subtitle: 'Model: PF 400 • Curved Glass Aquarium with Hood',
+            pricingType: 'fixed',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794083953/e056081e-d874-42bf-a3b6-b7c1fbb74b94.png',
+            description: 'Popular 40cm imported curved glass aquarium with integrated top hood and efficient filtration system. Perfect for vibrant tropical freshwater community fish.',
+            specs: {
+                'Model': 'PF 400',
+                'Design': 'Seamless Curved Front Glass',
+                'Features': 'Top Hood with Filtration Support'
+            },
+            variants: [
+                { name: 'PF 400', price: 2900, label: 'PF 400 • ₹2,900' }
+            ],
+            featured: true
+        },
+        {
+            id: 'tank-imported-pf-520',
+            category: 'imported-tank',
+            categoryName: 'Imported Tank',
+            name: 'Imported Tank PF 520',
+            subtitle: 'Model: PF 520 • Curved Glass Aquarium with Hood',
+            pricingType: 'fixed',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794084675/1f3fee50-0b6a-4890-9b03-f6a624478abb.png',
+            description: 'Spacious imported glass aquarium with seamless curved corners and full top cover hood. Provides generous swimming room for schooling fish and live plants.',
+            specs: {
+                'Model': 'PF 520',
+                'Design': 'Seamless Curved Front Glass',
+                'Features': 'Top Hood with Filtration Support'
+            },
+            variants: [
+                { name: 'PF 520', price: 3750, label: 'PF 520 • ₹3,750' }
+            ],
+            featured: true
+        },
+        {
+            id: 'tank-imported-pf-620',
+            category: 'imported-tank',
+            categoryName: 'Imported Tank',
+            name: 'Imported Tank PF 620',
+            subtitle: 'Model: PF 620 • Curved Glass Aquarium with Hood',
+            pricingType: 'fixed',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794084832/6018ad20-66e1-43a6-a3e3-588dad09ddec.png',
+            description: 'Premium 2-foot class imported aquarium featuring bent panoramic front glass, integrated multi-stage hood filtration, and high-illumination canopy lighting.',
+            specs: {
+                'Model': 'PF 620',
+                'Design': 'Seamless Curved Front Glass',
+                'Features': 'Top Hood with Filtration Support'
+            },
+            variants: [
+                { name: 'PF 620', price: 4450, label: 'PF 620 • ₹4,450' }
+            ],
+            featured: true
+        },
+        {
+            id: 'tank-imported-pf-820',
+            category: 'imported-tank',
+            categoryName: 'Imported Tank',
+            name: 'Imported Tank PF 820',
+            subtitle: 'Model: PF 820 • Heavy Curved Glass Aquarium',
+            pricingType: 'fixed',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794084936/11e41c3b-5d21-4a97-b4f5-e172d9ddb1db.png',
+            description: 'Large capacity imported aquarium featuring heavy-gauge curved float glass, integrated biological top filtration system, and premium molded canopy.',
+            specs: {
+                'Model': 'PF 820',
+                'Design': 'Seamless Curved Front Glass',
+                'Features': 'Heavy-Duty Canopy & Top Filter'
+            },
+            variants: [
+                { name: 'PF 820', price: 8500, label: 'PF 820 • ₹8,500' }
+            ],
+            featured: true
+        },
+        {
+            id: 'tank-imported-pf-820-cabinet',
+            category: 'imported-tank',
+            categoryName: 'Imported Tank',
+            name: 'Imported Tank PF 820 Cabinet Set',
+            subtitle: 'PF 820 Curved Glass Tank + Wooden Cabinet Set',
+            pricingType: 'fixed',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794085064/ec3efff8-724c-482d-b769-5dcffaf2a391.png',
+            description: 'Complete luxury aquarium set including the PF 820 imported curved glass tank and a custom-fitted waterproof wooden storage cabinet stand.',
+            specs: {
+                'Model': 'PF 820 Cabinet Set',
+                'Includes': 'Imported Tank + Matching Base Cabinet',
+                'Design': 'Curved Glass with Storage Cabinet'
+            },
+            variants: [
+                { name: 'PF 820 Cabinet Set', price: 13500, label: 'PF 820 Cabinet Set • ₹13,500' }
+            ],
+            featured: true
+        },
+        {
+            id: 'tank-imported-el-1000-cabinet',
+            category: 'imported-tank',
+            categoryName: 'Imported Tank',
+            name: 'Imported Tank EL 1000 Cabinet Set',
+            subtitle: 'EL 1000 1-Meter Aquarium + Luxury Cabinet Set',
+            pricingType: 'fixed',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794085223/c8ac8efd-b73b-475b-b37a-3cc47ce2db47.png',
+            description: 'Grand 1-meter exhibition aquarium set featuring high-transmittance machine polished glass, top biological filter, and sturdy structural cabinet.',
+            specs: {
+                'Model': 'EL 1000 Cabinet Set',
+                'Length': '1 Meter (~3.3 Feet)',
+                'Includes': 'Imported Tank + Heavy-Duty Cabinet Stand'
+            },
+            variants: [
+                { name: 'EL 1000 Cabinet Set', price: 17500, label: 'EL 1000 Cabinet Set • ₹17,500' }
+            ],
+            featured: true
+        },
+        {
+            id: 'tank-imported-4-feet-cabinet',
+            category: 'imported-tank',
+            categoryName: 'Imported Tank',
+            name: 'Imported Tank 4 Feet Cabinet Set',
+            subtitle: '4 Feet Luxury Display Aquarium + Deluxe Cabinet Set',
+            pricingType: 'fixed',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794085290/c87d6dbf-7b42-41e3-b4f6-5a46a6a3c64c.png',
+            description: 'Magnificent 4-foot luxury imported display aquarium complete with reinforced cabinet stand, high-capacity filtration chamber, and overhead lighting.',
+            specs: {
+                'Length': '4 Feet (120 cm)',
+                'Includes': '4ft Imported Tank + Deluxe Cabinet Stand',
+                'Glass': 'Heavy Toughened Float Glass'
+            },
+            variants: [
+                { name: '4 Feet Cabinet Set', price: 23500, label: '4 Feet Cabinet Set • ₹23,500' }
+            ],
+            featured: true
         },
 
         // --- G. AQUARIUM ACCESSORIES ---
@@ -1087,95 +1225,67 @@
 
         // --- G. BIRD ACCESSORIES ---
         {
-            id: 'acc-bird-dome-cage',
+            id: 'acc-bird-small-cage',
             category: 'bird-acc',
             categoryName: 'Bird Accessories',
-            name: 'Spacious Enamelled Dome Bird Cage',
-            subtitle: 'Twin Feeding Cups, Wooden Perch & Pull-out Hygiene Tray',
-            image: 'https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=800&q=80',
-            description: 'Safe non-toxic baked enamel wire spacing designed specifically for budgies, lovebirds, and cockatiels. Features a wide front doorway, hanging hoop, and easy-clean slide tray.',
+            name: 'Small Cage',
+            subtitle: 'Compact Powder-Coated Wire Bird Cage',
+            pricingType: 'fixed',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794086997/e97faf30-ea28-4f55-b99a-75d3c0d3c15d.png',
+            description: 'Compact powder-coated wire cage ideal for finches, canaries, and individual budgies. Features dual feeder cups, sturdy wooden perch, and a pull-out bottom tray for effortless daily cleaning.',
             specs: {
-                'Dimensions': '18 x 14 x 24 inches (Height)',
-                'Wire Spacing': '1.0 cm (Safe against head entrapment)',
-                'Accessories': '2 crystal seed cups, 2 perches, 1 swing',
-                'Color Options': 'Pearl White, Deep Ocean Navy'
+                'Type': 'Wire Bird Cage',
+                'Size': 'Small',
+                'Suitable For': 'Budgies, Finches, Canaries',
+                'Includes': '2 Feed Cups, 1 Perch, Hygiene Pull-out Tray'
             },
             variants: [
-                { name: 'Medium (1.5 ft)', price: 950, stock: 12, label: 'Medium (18x14x24 in)' },
-                { name: 'Large (2 ft Deluxe)', price: 1650, stock: 7, label: 'Large (24x18x32 in)' }
+                { name: 'Small Cage', price: 450, stock: 20, label: 'Small Cage • ₹450' }
             ],
             featured: false
         },
         {
-            id: 'acc-bird-perches-natural',
+            id: 'acc-bird-small-box-cage',
             category: 'bird-acc',
             categoryName: 'Bird Accessories',
-            name: 'Natural Hardwood Branch Perches (Pack of 2)',
-            subtitle: 'Varying Thickness to Prevent Bumblefoot',
-            image: 'https://images.unsplash.com/photo-1522858547137-f1dcec554f55?auto=format&fit=crop&w=800&q=80',
-            description: 'Unlike uniform plastic dowels, varying natural branch contours massage bird foot pads, exercise tendons, and naturally wear down sharp nail tips.',
+            name: 'Small Box Cage',
+            subtitle: 'Draft-Free Enclosed Box Cage with Seed Guard',
+            pricingType: 'fixed',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794087206/ed5fd3dc-1036-4f1d-a11a-0a1f8d3f8e91.png',
+            image2: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794087262/514bb83f-352a-416f-8683-0496f647d681.png',
+            image3: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794087317/47159564-c077-42c0-86c2-5967e118ba8d.png',
+            description: 'Enclosed box design bird cage built to minimize seed scatter and protect your pet birds from cold room drafts. Includes sturdy food cups, perch, and a slide-out waste tray.',
             specs: {
-                'Material': 'Oven-dried natural fruitwood',
-                'Fasteners': 'Stainless steel wingnuts & wide metal washers',
-                'Length': '25 - 30 cm per branch'
+                'Type': 'Box Style Cage',
+                'Size': 'Small Box',
+                'Suitable For': 'Budgies, Lovebirds, Small Parakeets',
+                'Features': 'Seed-scattering guard, slide-out debris tray'
             },
             variants: [
-                { name: 'Pack of 2 Branches', price: 290, stock: 20, label: 'Pack of 2 Natural Perches' }
+                { name: 'Small Box Cage', price: 600, stock: 15, label: 'Small Box Cage • ₹600' }
             ],
             featured: false
         },
         {
-            id: 'acc-bird-toy-ladder',
+            id: 'acc-bird-medium-box-cage',
             category: 'bird-acc',
             categoryName: 'Bird Accessories',
-            name: 'Colorful Wooden Chewing Ladder & Bell Swing',
-            subtitle: 'Non-Toxic Vegetable Dye • Foraging & Exercise Fun',
-            image: 'https://images.unsplash.com/photo-1549608276-5786777e6587?auto=format&fit=crop&w=800&q=80',
-            description: 'Acrobatic climbing ladder with colorful rungs, cotton rope tassels, and a cheerful chime bell. Relieves bird boredom and prevents stress feather plucking.',
+            name: 'Medium Box Cage',
+            subtitle: 'Spacious Box Cage with Side Guards & Dual Feeding Bowls',
+            pricingType: 'fixed',
+            image: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794087669/2e773615-cbec-48b4-9214-9c3bac58b7bf.png',
+            image2: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794087616/b8df71a2-4ff3-4001-8d74-de7925a1fd49.png',
+            image3: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794087719/53b517dd-06a5-4f3a-83e6-04e65e3f5e9f.png',
+            image4: 'https://res.cloudinary.com/dfzk4sfkw/image/upload/v1794087786/26f1998e-14d6-416a-a641-82fa51d24822.png',
+            description: 'Roomy medium box bird cage offering ample space for a pair of budgies, lovebirds, or cockatiels. Solid side panels keep seed hulls contained while front wire provides excellent visibility.',
             specs: {
-                'Dyes': '100% Pet-safe edible food dyes',
-                'Clips': 'Quick-link metal cage carabiner',
-                'Rungs': '8 Steps Wooden Ladder'
+                'Type': 'Box Style Cage',
+                'Size': 'Medium Box',
+                'Suitable For': 'Cockatiels, Lovebirds, Budgie Pairs',
+                'Features': 'Mess-reducing shields, 2 food bowls, perches, slide tray'
             },
             variants: [
-                { name: 'Ladder + Bell Swing Combo', price: 220, stock: 28, label: 'Ladder & Swing Set' }
-            ],
-            featured: false
-        },
-        {
-            id: 'acc-bird-toy-ladder',
-            category: 'bird-acc',
-            categoryName: 'Bird Accessories',
-            name: 'Colorful Wooden Chewing Ladder & Bell Swing',
-            subtitle: 'Non-Toxic Vegetable Dye • Foraging & Exercise Fun',
-            image: 'https://images.unsplash.com/photo-1549608276-5786777e6587?auto=format&fit=crop&w=800&q=80',
-            description: 'Acrobatic climbing ladder with colorful rungs, cotton rope tassels, and a cheerful chime bell. Relieves bird boredom and prevents stress feather plucking.',
-            specs: {
-                'Dyes': '100% Pet-safe edible food dyes',
-                'Clips': 'Quick-link metal cage carabiner',
-                'Rungs': '8 Steps Wooden Ladder'
-            },
-            variants: [
-                { name: 'Ladder + Bell Swing Combo', price: 220, stock: 28, label: 'Ladder & Swing Set' }
-            ],
-            featured: false
-        },
-        {
-            id: 'acc-bird-nest-box',
-            category: 'bird-acc',
-            categoryName: 'Bird Accessories',
-            name: 'Natural Pine Breeding Nest Box',
-            subtitle: 'Concave Bottom with Inspection Inspection Door',
-            image: 'https://images.unsplash.com/photo-1608096299210-db7e38487075?auto=format&fit=crop&w=800&q=80',
-            description: 'Crafted from solid kiln-dried pine wood. Features a recessed concave nesting bowl to prevent egg roll, anti-predator entrance hole, and top-opening lid for chick inspection.',
-            specs: {
-                'Ventilation': 'Laser-cut breathing slits',
-                'Mounting': 'Exterior or interior cage hook brackets',
-                'Wood': 'Untreated natural pine'
-            },
-            variants: [
-                { name: 'Budgie Size', price: 320, stock: 15, label: 'Budgie Size (8 x 6 x 6 in)' },
-                { name: 'Cockatiel Size', price: 540, stock: 10, label: 'Cockatiel Size (11 x 8 x 8 in)' }
+                { name: 'Medium Box Cage', price: 850, stock: 12, label: 'Medium Box Cage • ₹850' }
             ],
             featured: false
         }
@@ -1207,19 +1317,17 @@
         if (filter === 'budgies') return product.category === 'budgies';
         if (filter === 'fish-food') return product.category === 'fish-food';
         if (filter === 'bird-food') return product.category === 'bird-food';
-        if (filter === 'tanks' || filter === 'Tank' || filter === 'tank') {
-            return product.category === 'tanks' || product.category === 'Tank' || product.category === 'tank';
+        if (filter === 'fish-tank' || filter === 'indian-tank') {
+            return product.category === 'fish-tank' || product.category === 'indian-tank';
         }
-        if (filter === 'fish-bowls') {
-            return product.id === 'tank-nano-rimless' ||
-                product.name.toLowerCase().includes('nano') ||
-                product.name.toLowerCase().includes('cube') ||
-                product.name.toLowerCase().includes('bowl');
+        if (filter === 'fish-bowl' || filter === 'fish-bowls') {
+            return product.category === 'fish-bowl' || product.category === 'fish-bowls';
         }
-        if (filter === 'imported-tanks') {
-            return product.id === 'tank-curved-corner' ||
-                product.id === 'tank-custom-3ft' ||
-                product.id === 'tank-medium-rimless';
+        if (filter === 'imported-tank' || filter === 'imported-tanks') {
+            return product.category === 'imported-tank' || product.category === 'imported-tanks';
+        }
+        if (filter === 'tanks' || filter === 'tank' || filter === 'Tank') {
+            return product.category === 'fish-tank' || product.category === 'fish-bowl' || product.category === 'imported-tank';
         }
         if (filter === 'bird-acc') return product.category === 'bird-acc';
         if (filter === 'aquarium-acc') return product.category === 'aquarium-acc';
@@ -1339,11 +1447,13 @@
                 'birds': 'Birds',
                 'fish-food': 'Fish Food',
                 'bird-food': 'Bird Food',
-                'tanks': 'Aquarium Tanks',
-                'Tank': 'Aquarium Tanks',
-                'tank': 'Aquarium Tanks',
+                'fish-tank': 'Fish Tanks (Indian)',
+                'indian-tank': 'Indian Tanks',
+                'fish-bowl': 'Fish Bowls',
                 'fish-bowls': 'Fish Bowls',
+                'imported-tank': 'Imported Tanks',
                 'imported-tanks': 'Imported Tanks',
+                'tanks': 'Aquarium Tanks',
                 'bird-acc': 'Bird Accessories',
                 'aquarium-acc': 'Aquarium Accessories',
                 'cockatiels': 'Cockatiels',
